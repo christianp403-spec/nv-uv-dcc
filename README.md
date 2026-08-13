@@ -2,11 +2,9 @@
 
 **Dynamic Clock Capping for NVIDIA GeForce GPUs.**
 
-> UV makes every MHz cheaper. DCC removes the MHz your game does not need.
-
 This repository currently hosts the experimental **0.1.0-alpha.11 binary-only
-Community Preview**. The public source code and normal repository development
-are planned for the following week under MPL-2.0. DCC is also planned as an
+Community Preview**. The source code and normal repository development are
+planned for the following week under MPL-2.0. DCC is also planned as an
 integrated feature in the next NV-UV release.
 
 ![DCC by NV-UV alpha.11 Mini View](assets/dcc-alpha11.png)
@@ -23,14 +21,35 @@ later re-tests lower bins cautiously.
 - game matching from profiles installed with the NVIDIA driver;
 - own Windows ETW FPS collector without overlay or DLL injection;
 - targets from 30 to 400 FPS;
-- learning `DCC algorithm` and optional experimental `NVIDIA driver` method;
+- learning `DCC algorithm` and optional `NVIDIA Ultra Efficiency` method;
 - restoration of DCC-owned clock and frame-limiter changes;
 - activation history, learned profiles, diagnostics, tray, and emergency reset;
 - no RTSS, MSI Afterburner, MAHM, cloud service, or AI model required.
 
-DCC is not undervolting and does not edit the V/F curve. An existing stable UV
-profile may complement it, but another program must not change GPU clock
-controls while DCC is active.
+DCC is not undervolting and does not edit the V/F curve.
+
+## Two clearly different methods
+
+- **DCC algorithm** is NV-UV's own adaptive controller. It learns the lowest
+  sufficient clock, restores performance quickly for heavier scenes, and later
+  re-tests lower clocks cautiously.
+- **NVIDIA Ultra Efficiency** calls NVIDIA's internal, undocumented
+  JPAC/Max-Perf-per-Watt algorithm while DCC supplies the target FPS and per-game
+  frame limit. “Ultra Efficiency” is DCC's descriptive UI name, not an official
+  NVIDIA product name. Driver support is not guaranteed.
+
+## Best use cases and clean testing
+
+DCC is most useful when a game has substantial unused GPU performance at the
+chosen FPS target: older or lightweight games, indie titles, ARPGs, strategy
+games, emulators, capped esports titles, and CPU-limited games. A fully
+GPU-bound game that barely reaches its target has little headroom to remove.
+
+For the first test, reset UV/OC to stock and fully close **MSI Afterburner** or
+any other utility that can change clocks, voltage, V/F curves, or power limits.
+**RTSS may remain running**; DCC does not use its FPS hook. Avoid a competing
+RTSS frame limit so only one limiter controls the comparison. Once a stock run
+works, experienced users may separately re-test a known-stable UV profile.
 
 ## Download the alpha
 

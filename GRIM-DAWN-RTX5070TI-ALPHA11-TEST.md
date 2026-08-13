@@ -25,10 +25,12 @@ power range was roughly 16–25% below the comparison range while preserving the
 
 ## Interpretation
 
-DCC is not another undervolting method. The existing UV profile can make each
-clock step cheaper; DCC attempts to remove clock headroom that the current game
-does not need. In this test Grim Dawn still met its FPS target at roughly half
-the previously observed GPU clock.
+DCC is not another undervolting method. This particular proof-of-concept run
+used an existing Eco/UV profile, but new alpha testers should establish their
+first baseline at stock settings with MSI Afterburner fully closed. That avoids
+two clock-control systems influencing the result. RTSS may remain running as
+long as it is not applying a competing frame limit. In this test Grim Dawn still
+met its FPS target at roughly half the previously observed GPU clock.
 
 The RTX 5090 may show a larger absolute reduction because it has considerably
 more unused performance in light games, but that is a hypothesis until users
