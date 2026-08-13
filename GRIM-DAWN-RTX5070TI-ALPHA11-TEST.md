@@ -8,7 +8,7 @@ whether Dynamic Clock Capping is worth broader community testing.
 
 - GPU: NVIDIA GeForce RTX 5070 Ti
 - Resolution: 2560 × 1440
-- Target: 120 FPS
+- Target: 100 FPS
 - Game: Grim Dawn
 - Existing GPU setup: low-voltage NV-UV Eco/UV profile
 
@@ -16,12 +16,12 @@ whether Dynamic Clock Capping is worth broader community testing.
 
 | Configuration | Observed GPU clock | Observed board power | Result |
 |---|---:|---:|---|
-| Existing Eco/UV operation without DCC | about 2 GHz | 89–92 W | 120 FPS |
-| DCC active | about 990 MHz | 69–75 W | 120 FPS |
+| Existing Eco/UV operation without DCC | about 2 GHz | 89–92 W | 100 FPS |
+| DCC active | about 990 MHz | 69–75 W | 100 FPS |
 
 During parts of the DCC run, the GPU fans did not need to start. The observed
 power range was roughly 16–25% below the comparison range while preserving the
-120-FPS target in the tested scenes.
+100-FPS target in the tested scenes.
 
 ## Interpretation
 
