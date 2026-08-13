@@ -68,7 +68,7 @@ download and this repository.
 
 ## Preliminary Grim Dawn result
 
-On an RTX 5070 Ti at 2560 × 1440 and a 100-FPS target, the existing Eco/UV
+On an RTX 5070 Ti at 3840 × 2160 (4K) and a 100-FPS target, the existing Eco/UV
 configuration was observed around 89–92 W at roughly 2 GHz. With DCC active,
 the tested scenes held 100 FPS around 990 MHz and 69–75 W. This is an early
 single-system proof of concept, not a standardized benchmark.

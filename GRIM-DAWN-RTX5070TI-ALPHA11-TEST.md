@@ -7,7 +7,7 @@ whether Dynamic Clock Capping is worth broader community testing.
 ## Test system and target
 
 - GPU: NVIDIA GeForce RTX 5070 Ti
-- Resolution: 2560 × 1440
+- Resolution: 3840 × 2160 (4K)
 - Target: 100 FPS
 - Game: Grim Dawn
 - Existing GPU setup: low-voltage NV-UV Eco/UV profile
