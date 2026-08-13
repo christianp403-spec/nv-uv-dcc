@@ -1,0 +1,33 @@
+DCC BY NV-UV COMMUNITY PREVIEW BINARY TERMS
+Version 1.0 - 13 August 2026
+
+Copyright (c) 2026 Christian (christianp403-spec). All rights reserved.
+
+These terms apply only to the unmodified DCC by NV-UV 0.1.0-alpha.11
+Community Preview binary archive distributed by the copyright holder.
+
+Permission is granted, free of charge, to:
+
+1. download and run the Community Preview for personal testing and evaluation;
+2. make backup copies; and
+3. redistribute the complete, unmodified preview archive free of charge,
+   provided these terms and all third-party notices remain included.
+
+No permission is granted to modify, repackage, sell, sublicense, or represent
+the Community Preview as an official NVIDIA product. NV-UV names, logos, and
+branding are not licensed for use in another product.
+
+This binary preview is not an open-source release. A later source release is
+planned under the Mozilla Public License 2.0; that later release will be
+governed by its own included license and does not change these preview terms.
+
+THE COMMUNITY PREVIEW IS EXPERIMENTAL AND PROVIDED "AS IS", WITHOUT WARRANTY
+OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, COMPATIBILITY,
+NONINFRINGEMENT, PERFORMANCE, DATA INTEGRITY, OR HARDWARE SAFETY. TO THE
+MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE COPYRIGHT HOLDER SHALL NOT BE
+LIABLE FOR ANY CLAIM, DAMAGE, LOSS, OR OTHER LIABILITY ARISING FROM USE OR
+INABILITY TO USE THE COMMUNITY PREVIEW.
+
+Third-party software contained in or used by the Community Preview remains
+under its respective license as documented in THIRD-PARTY-NOTICES.md.
