@@ -69,6 +69,8 @@ Useful issue reports include:
 - whether the game needed a restart for its frame limit;
 - privacy-filtered diagnostic ZIP when something fails.
 
-The maintainer will have limited availability for the first four days of this
-preview. Please experiment carefully, document recovery steps, and expect alpha
-behavior.
+I'll be on vacation for the first four days, so I may not reply right away.
+Feel free to experiment while I'm away — just please test carefully and expect
+alpha behavior.
+
+[Share a test result or report a bug](https://github.com/christianp403-spec/nv-uv-dcc/issues/new/choose)

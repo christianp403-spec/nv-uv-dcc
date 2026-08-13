@@ -1,0 +1,61 @@
+name: DCC test result
+description: Share a reproducible efficiency result from a game and GPU.
+title: "[Test] GPU / game / target FPS"
+labels: ["test result"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Alpha acknowledgement
+      options:
+        - label: I read the alpha safety and recovery notes included in the ZIP.
+          required: true
+  - type: input
+    attributes:
+      label: GPU and NVIDIA driver
+      placeholder: RTX 5090, driver 5xx.xx
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Game and executable
+      placeholder: Grim Dawn, grim dawn.exe
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Resolution, target FPS, and DCC method
+      placeholder: 2560x1440, 120 FPS, DCC algorithm
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Baseline
+      description: Include FPS, board power, GPU clock, and any UV/OC profile.
+      placeholder: 120 FPS, 89-92 W, approximately 2 GHz, NV-UV Eco profile
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: DCC result
+      description: Include FPS, board power, learned clock, and tested scenes.
+      placeholder: 120 FPS, 69-75 W, learned approximately 990 MHz
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Did the game need a restart for the frame limit?
+      options: ["No", "Yes", "Not tested / unsure"]
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Stability and observations
+      description: Describe frametime behavior, heavier scenes, fans, and recovery.
+    validations:
+      required: true

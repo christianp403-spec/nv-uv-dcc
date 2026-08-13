@@ -1,0 +1,51 @@
+name: Bug report
+description: Report a failure in the DCC Community Preview.
+title: "[Bug] Short description"
+labels: ["bug"]
+body:
+  - type: checkboxes
+    attributes:
+      label: Safety checks
+      options:
+        - label: I stopped other GPU clock-control tools before reproducing this issue.
+          required: true
+        - label: I read the recovery instructions included in the ZIP.
+          required: true
+  - type: input
+    attributes:
+      label: GPU, NVIDIA driver, and Windows
+      placeholder: RTX 5070 Ti, driver 5xx.xx, Windows 11 24H2
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Game, target FPS, and method
+      placeholder: Grim Dawn, 120 FPS, DCC algorithm
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Steps to reproduce
+      placeholder: "1. Start DCC\n2. Select ...\n3. Enable ..."
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Did Emergency reset or a Windows restart recover normal behavior?
+      options: ["Emergency reset worked", "Windows restart worked", "No", "Not required"]
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Diagnostic ZIP and additional context
+      description: Drag the privacy-filtered DCC diagnostic ZIP here if available. Do not attach unrelated personal logs.
