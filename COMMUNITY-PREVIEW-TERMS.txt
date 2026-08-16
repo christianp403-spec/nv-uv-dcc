@@ -1,10 +1,11 @@
 DCC BY NV-UV COMMUNITY PREVIEW BINARY TERMS
-Version 1.0 - 13 August 2026
+Version 1.1 - 16 August 2026
 
 Copyright (c) 2026 Christian (christianp403-spec). All rights reserved.
 
-These terms apply only to the unmodified DCC by NV-UV 0.1.0-alpha.11
-Community Preview binary archive distributed by the copyright holder.
+These terms apply only to the unmodified DCC by NV-UV 0.1.0-alpha.11 and
+0.1.0-alpha.12 Community Preview binary archives distributed by the copyright
+holder.
 
 Permission is granted, free of charge, to:
 

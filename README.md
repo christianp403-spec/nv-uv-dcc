@@ -2,12 +2,12 @@
 
 **Dynamic Clock Capping for NVIDIA GeForce GPUs.**
 
-This repository currently hosts the experimental **0.1.0-alpha.11 binary-only
+This repository currently hosts the experimental **0.1.0-alpha.12 binary-only
 Community Preview**. The source code and normal repository development are
 planned for the following week under MPL-2.0. DCC is also planned as an
 integrated feature in the next NV-UV release.
 
-![DCC by NV-UV alpha.11 Mini View](assets/dcc-alpha11.png)
+![DCC by NV-UV Mini View](assets/dcc-alpha11.png)
 
 ## What it does
 
@@ -56,13 +56,14 @@ works, experienced users may separately re-test a known-stable UV profile.
 Use the latest GitHub **Pre-release** and read its included README, Community
 Preview terms, safety notes, and SHA-256 before testing:
 
-https://github.com/christianp403-spec/nv-uv-dcc/releases/tag/v0.1.0-alpha.11
+https://github.com/christianp403-spec/nv-uv-dcc/releases/tag/v0.1.0-alpha.12
 
 This first archive is a binary Community Preview, not an open-source release.
 Permission and warranty terms are in `COMMUNITY-PREVIEW-TERMS.txt` within the
 download and this repository.
 
 - [Community Preview terms](COMMUNITY-PREVIEW-TERMS.txt)
+- [Alpha.12 preview notes](PREVIEW-NOTES-0.1.0-alpha.12.md)
 - [Alpha.11 preview notes](PREVIEW-NOTES-0.1.0-alpha.11.md)
 - [Detailed Grim Dawn test notes](GRIM-DAWN-RTX5070TI-ALPHA11-TEST.md)
 
