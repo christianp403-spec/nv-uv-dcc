@@ -43,7 +43,7 @@ controller. A hard per-game NVIDIA frame limit is optional and off by default.
 
 DCC is not undervolting and does not edit the V/F curve.
 
-## Two clearly different methods
+## Two different methods
 
 - **NVIDIA Ultra Efficiency** is an experimental alternative. It calls NVIDIA's
   internal, undocumented JPAC/Max-Perf-per-Watt algorithm with the selected
