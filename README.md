@@ -14,12 +14,14 @@ curves.
 - Immediate GPU release on Alt+Tab and profile reuse when returning to the game
 - `Global` and one-session `Per game` modes
 - Optional elevated autostart, minimized tray start, and **100–300%** UI scaling
+- Visible **DE / EN / RU / ES** language selector under Games & Profiles
 - Optional NVIDIA frame limiter and performance logging, both off by default
 - Recovery paths for clock caps, frame limits, and NVIDIA mode
 - No RTSS, MSI Afterburner, cloud service, or AI model required
 
-DCC is **not undervolting** and does not modify the GPU V/F curve. For best
-efficiency, use one FPS cap matching the selected DCC target.
+DCC is **not undervolting** and does not modify the GPU V/F curve. The target
+slider guides learning; it is not itself an FPS cap. For best efficiency, use
+one FPS cap matching the selected target.
 
 ## NVIDIA Ultra Efficiency
 
@@ -35,7 +37,7 @@ comparison.
 
 **Portable:** `DCC-0.1.0-alpha.14-win-x64-portable.zip`
 
-**SHA-256:** `49842780DAFD3772602AA43E0C2733E7D98A01AE217A94B68FA58DF7F42566C8`
+**SHA-256:** `AF4C5847E1BB7E8029F08077C0380F6F1F53B267B69B7F23CE22EE94147C9102`
 
 DCC is not code-signed, so Windows SmartScreen may warn. This remains alpha
 software; test carefully.
