@@ -18,6 +18,9 @@ one-percent lows without editing voltage or clock curves.
 - Optional elevated autostart, minimized tray start, and **100–300%** UI scaling
 - Visible **DE / EN / RU / ES** language selector under Games & Profiles
 - Optional NVIDIA frame limiter and performance logging, both off by default
+- A–B–A power/energy guard that stops below-valley clock reductions
+- Optional read-only GPU core-voltage values in performance logs when supported
+- Primary presentation-stream selection for multi-swapchain games
 - Recovery paths for clock caps, frame limits, and NVIDIA mode
 - No RTSS, MSI Afterburner, cloud service, or AI model required
 
@@ -41,11 +44,11 @@ comparison.
 
 ## Download
 
-[Download DCC 0.1.0-alpha.15](https://github.com/christianp403-spec/nv-uv-dcc/releases/tag/v0.1.0-alpha.15)
+[Download DCC 0.1.0-alpha.16](https://github.com/christianp403-spec/nv-uv-dcc/releases/tag/v0.1.0-alpha.16)
 
-**Portable:** `DCC-0.1.0-alpha.15-win-x64-portable.zip`
+**Portable:** `DCC-0.1.0-alpha.16-win-x64-portable.zip`
 
-**SHA-256:** `F88DAA7B42AAAFB833ED00D216965B8012C43AF6AC92CC1B5835FF5304A72F0F`
+**SHA-256:** `D85B32FD81FC36695C53BA81967F042CE46D5ED46F31EE827FA61A62AB265A21`
 
 DCC is not code-signed, so Windows SmartScreen may warn. This remains alpha
 software; test carefully.
