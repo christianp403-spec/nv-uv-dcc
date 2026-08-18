@@ -37,7 +37,8 @@ try.
 ## NVIDIA Ultra Efficiency
 
 An experimental alternative using NVIDIA's internal JPAC interface is included.
-It is limited to **60–400 FPS**.
+Its selectable target range is **60–1,000 FPS**. This is a JPAC efficiency
+target, not a frame-rate limit.
 
 NVIDIA Project G-Assist can be installed separately through the NVIDIA App for
 comparison.
