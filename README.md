@@ -40,9 +40,6 @@ An experimental alternative using NVIDIA's internal JPAC interface is included.
 Its selectable target range is **60–1,000 FPS**. This is a JPAC efficiency
 target, not a frame-rate limit.
 
-NVIDIA Project G-Assist can be installed separately through the NVIDIA App for
-comparison.
-
 ## Download
 
 [Download DCC 0.1.0-alpha.16](https://github.com/christianp403-spec/nv-uv-dcc/releases/tag/v0.1.0-alpha.16)
