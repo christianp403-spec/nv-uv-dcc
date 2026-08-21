@@ -42,11 +42,16 @@ target, not a frame-rate limit.
 
 ## Download
 
-[Download DCC 0.1.0-alpha.16](https://github.com/christianp403-spec/nv-uv-dcc/releases/tag/v0.1.0-alpha.16)
+[Download DCC 0.1.0-alpha.18](https://github.com/christianp403-spec/nv-uv-dcc/releases/tag/v0.1.0-alpha.18)
 
-**Portable:** `DCC-0.1.0-alpha.16-win-x64-portable.zip`
+**Portable:** `DCC-0.1.0-alpha.18-r3-win-x64-portable.zip`
 
-**SHA-256:** `D85B32FD81FC36695C53BA81967F042CE46D5ED46F31EE827FA61A62AB265A21`
+**SHA-256:** `5C804B8C789731F625F614A774A0DA63DE72C6319E42AE08BFDF7B09372A4FCF`
+
+This is a binary-only Community Preview distributed under the included
+[DCC by NV-UV Community Preview Binary Terms 1.2](COMMUNITY-PREVIEW-TERMS.txt).
+It is not an open-source or source-available release. Third-party components
+remain under their respective licenses.
 
 DCC is not code-signed, so Windows SmartScreen may warn. This remains alpha
 software; test carefully.

@@ -1,26 +1,40 @@
 DCC BY NV-UV COMMUNITY PREVIEW BINARY TERMS
-Version 1.1 - 16 August 2026
+Version 1.2 - 21 August 2026
 
 Copyright (c) 2026 Christian (christianp403-spec). All rights reserved.
 
-These terms apply only to the unmodified DCC by NV-UV 0.1.0-alpha.11 through
-0.1.0-alpha.13 Community Preview binary archives distributed by the copyright
-holder.
+These terms apply only to the unmodified DCC by NV-UV
+0.1.0-alpha.18-r3 Community Preview binary archive distributed by the
+copyright holder with this file.
 
 Permission is granted, free of charge, to:
 
-1. download and run the Community Preview for personal testing and evaluation;
-2. make backup copies; and
-3. redistribute the complete, unmodified preview archive free of charge,
-   provided these terms and all third-party notices remain included.
+1. download and run the Community Preview for personal and non-commercial
+   testing and evaluation;
+2. make backup copies;
+3. help friends and community members use the Community Preview free of
+   charge;
+4. redistribute the complete, unmodified Community Preview archive free of
+   charge, provided these terms and all third-party notices remain included;
+   and
+5. use the unmodified Community Preview in editorial coverage, reviews,
+   tutorials, demonstrations, livestreams, and videos, including monetized
+   content and professional journalistic or editorial work.
+
+Commercial use of the software itself, OEM bundling, inclusion in a paid
+product, and paid tuning or support services using DCC require a separate
+written commercial license from the copyright holder.
 
 No permission is granted to modify, repackage, sell, sublicense, or represent
 the Community Preview as an official NVIDIA product. NV-UV names, logos, and
-branding are not licensed for use in another product.
+branding are not licensed for use in another product. Reasonable display of
+the DCC name, user interface, and included branding solely to identify DCC in
+the permitted media coverage is allowed.
 
-This binary preview is not an open-source release. A later source release is
-planned under the Mozilla Public License 2.0; that later release will be
-governed by its own included license and does not change these preview terms.
+This binary Community Preview is not an open-source or source-available
+release. No source-code license is granted by these terms. Any future source
+release will be governed exclusively by the license included with that
+release.
 
 THE COMMUNITY PREVIEW IS EXPERIMENTAL AND PROVIDED "AS IS", WITHOUT WARRANTY
 OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
@@ -31,4 +45,4 @@ LIABLE FOR ANY CLAIM, DAMAGE, LOSS, OR OTHER LIABILITY ARISING FROM USE OR
 INABILITY TO USE THE COMMUNITY PREVIEW.
 
 Third-party software contained in or used by the Community Preview remains
-under its respective license as documented in THIRD-PARTY-NOTICES.md.
+under its respective license as documented in THIRD-PARTY-NOTICES.txt.
