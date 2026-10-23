@@ -1,0 +1,311 @@
+<Window x:Class="NvUv.Dcc.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="DCC · Dynamic Clock Capping"
+        Width="300" Height="350"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="{StaticResource PolishedMetalBrush}"
+        Foreground="{StaticResource TextPrimary}"
+        FontFamily="Segoe UI"
+        FontSize="11"
+        SnapsToDevicePixels="True"
+        UseLayoutRounding="True"
+        Topmost="True"
+        Icon="/Assets/app.ico"
+        Loaded="Window_Loaded"
+        StateChanged="Window_StateChanged"
+        Closing="Window_Closing">
+    <Viewbox Stretch="Fill" StretchDirection="Both">
+        <Grid Width="300" Height="350">
+            <Rectangle Fill="{StaticResource PolishedMetalBrush}" IsHitTestVisible="False" />
+            <Rectangle Fill="{StaticResource BrushedSilverBrush}" IsHitTestVisible="False" />
+            <Rectangle Fill="{StaticResource PolishedSheenBrush}" IsHitTestVisible="False" />
+
+            <Border BorderBrush="#8A111111" BorderThickness="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="26" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="31" />
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0" x:Name="TitleBar" Background="Transparent"
+                          MouseLeftButtonDown="TitleBar_MouseLeftButtonDown">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock x:Name="TitleBarText" Text="DCC · Dynamic Clock Capping"
+                                   FontSize="9" FontWeight="SemiBold"
+                                   Foreground="{StaticResource TextSecondary}"
+                                   VerticalAlignment="Center" Margin="9,0,0,0" />
+                        <Button Grid.Column="1" x:Name="MinimizeButton"
+                                Style="{StaticResource ChromeButton}" Content="&#xE921;"
+                                FontFamily="Segoe MDL2 Assets" FontSize="9"
+                                ToolTip="Minimize to tray" Click="MinimizeButton_Click" />
+                        <Button Grid.Column="2" x:Name="CloseButton"
+                                Style="{StaticResource CloseChromeButton}" Content="&#xE8BB;"
+                                FontFamily="Segoe MDL2 Assets" FontSize="9"
+                                ToolTip="Exit DCC" Click="CloseButton_Click" />
+                    </Grid>
+
+                    <StackPanel Grid.Row="1" Margin="10,2,10,2">
+                        <Grid Height="39" Margin="1,0,0,4">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="40" />
+                                <ColumnDefinition Width="24" />
+                                <ColumnDefinition Width="24" />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel VerticalAlignment="Center">
+                                <Grid Height="27">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="DCC" FontSize="22" FontWeight="Bold"
+                                               VerticalAlignment="Center" />
+                                    <StackPanel Grid.Column="1" Margin="8,1,0,0"
+                                                VerticalAlignment="Center">
+                                        <TextBlock Text="DYNAMIC CLOCK CAPPING"
+                                                   FontFamily="Consolas" FontSize="9"
+                                                   FontWeight="SemiBold"
+                                                   Foreground="{StaticResource TextSecondary}" />
+                                        <TextBlock Text="AN NV-UV PROJECT"
+                                                   FontFamily="Consolas" FontSize="8.5"
+                                                   FontWeight="SemiBold"
+                                                   Foreground="{StaticResource NvGreen}" />
+                                    </StackPanel>
+                                </Grid>
+                                <TextBlock x:Name="GpuNameText" Text="Detecting NVIDIA GPU …"
+                                           FontFamily="Consolas" FontSize="9"
+                                           Foreground="{StaticResource TextSecondary}"
+                                           TextTrimming="CharacterEllipsis" />
+                            </StackPanel>
+                            <Button Grid.Column="1" x:Name="ScaleButton"
+                                    Style="{StaticResource GhostButton}" Content="100%"
+                                    Width="38" Height="23" Padding="2,0"
+                                    FontFamily="Consolas" FontSize="8"
+                                    VerticalAlignment="Center"
+                                    Click="ScaleButton_Click" MouseRightButtonUp="ScaleButton_RightClick" />
+                            <Button Grid.Column="2" x:Name="MenuButton"
+                                    Style="{StaticResource GhostButton}" Content="&#xE8FD;"
+                                    FontFamily="Segoe MDL2 Assets" Width="24" Height="23"
+                                    Padding="0" ToolTip="Activated history"
+                                    Click="GamesProfilesButton_Click" />
+                            <Button Grid.Column="3" x:Name="ResetButton"
+                                    Style="{StaticResource GhostButton}" Content="↻"
+                                    Width="24" Height="23" Padding="0"
+                                    FontSize="13" Foreground="{StaticResource TextSecondary}"
+                                    ToolTip="Emergency reset" Click="ResetButton_Click" />
+                        </Grid>
+
+                        <Border Height="56" Background="{StaticResource PolishedCardBrush}"
+                                CornerRadius="4" Padding="8,5" Margin="0,0,0,3">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="25" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="1.2*" />
+                                    <ColumnDefinition Width="0.75*" />
+                                    <ColumnDefinition Width="0.75*" />
+                                </Grid.ColumnDefinitions>
+                                <StackPanel Grid.ColumnSpan="3">
+                                    <TextBlock x:Name="GameHeaderText" Text="NVIDIA PROFILE"
+                                               FontFamily="Consolas" FontSize="8"
+                                               Foreground="{StaticResource TextMuted}" />
+                                    <TextBlock x:Name="GameNameText" Text="—" FontSize="11"
+                                               FontWeight="SemiBold" TextTrimming="CharacterEllipsis"
+                                               ToolTip="No NVIDIA game profile is active" />
+                                </StackPanel>
+                                <StackPanel Grid.Row="1" Grid.Column="0" x:Name="FpsTelemetryPanel">
+                                    <TextBlock Text="FPS" FontFamily="Consolas" FontSize="8"
+                                               Foreground="{StaticResource TextMuted}" />
+                                    <TextBlock x:Name="CurrentFpsText" Text="—" FontFamily="Consolas"
+                                               FontSize="12" FontWeight="Bold" Foreground="{StaticResource NvGreen}" />
+                                </StackPanel>
+                                <StackPanel Grid.Row="1" Grid.Column="1" x:Name="PowerTelemetryPanel">
+                                    <TextBlock Text="POWER" FontFamily="Consolas" FontSize="8"
+                                               Foreground="{StaticResource TextMuted}" />
+                                    <TextBlock x:Name="PowerText" Text="—" FontFamily="Consolas"
+                                               FontSize="12" FontWeight="Bold" />
+                                </StackPanel>
+                                <StackPanel Grid.Row="1" Grid.Column="2" x:Name="LoadTelemetryPanel">
+                                    <TextBlock Text="GPU" FontFamily="Consolas" FontSize="8"
+                                               Foreground="{StaticResource TextMuted}" />
+                                    <TextBlock x:Name="LoadText" Text="—" FontFamily="Consolas"
+                                               FontSize="12" FontWeight="Bold" />
+                                </StackPanel>
+                            </Grid>
+                        </Border>
+
+                        <Border Height="95" Background="{StaticResource PolishedCardBrush}"
+                                CornerRadius="4" Padding="1" Margin="0,0,0,3">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="31" />
+                                    <RowDefinition Height="1" />
+                                    <RowDefinition Height="30" />
+                                    <RowDefinition Height="1" />
+                                    <RowDefinition Height="30" />
+                                </Grid.RowDefinitions>
+                                <CheckBox x:Name="ActiveToggle" Style="{StaticResource OledToggleSwitch}"
+                                          Height="31" Padding="7,0" Click="ActiveToggle_Click">
+                                    <StackPanel>
+                                        <TextBlock x:Name="EnableText" Text="Enable DCC"
+                                                   FontSize="11" FontWeight="SemiBold" />
+                                        <TextBlock x:Name="ActiveHintText" Text="Off"
+                                                   FontSize="7" Foreground="{StaticResource TextSecondary}" />
+                                    </StackPanel>
+                                </CheckBox>
+                                <CheckBox Grid.Row="2" x:Name="AutoStartToggle"
+                                          Style="{StaticResource OledToggleSwitch}"
+                                          Height="30" Padding="7,0" Click="AutoStartToggle_Click">
+                                    <TextBlock x:Name="AutoStartText" Text="Start with Windows"
+                                               FontSize="11" />
+                                </CheckBox>
+                                <CheckBox Grid.Row="4" x:Name="StartMinimizedToggle"
+                                          Style="{StaticResource OledToggleSwitch}"
+                                          Height="30" Padding="7,0" Click="StartMinimizedToggle_Click">
+                                    <TextBlock x:Name="StartMinimizedText" Text="Start minimized to tray"
+                                               FontSize="11" />
+                                </CheckBox>
+                            </Grid>
+                        </Border>
+
+                        <Border Height="86" Background="{StaticResource PolishedCardBrush}"
+                                CornerRadius="4" Padding="8,5">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="23" />
+                                    <RowDefinition Height="1" />
+                                    <RowDefinition Height="25" />
+                                    <RowDefinition Height="1" />
+                                    <RowDefinition Height="25" />
+                                </Grid.RowDefinitions>
+                                <Grid Grid.Row="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="148" />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock x:Name="MethodHeaderText" Text="METHOD"
+                                               FontSize="8" FontWeight="SemiBold"
+                                               VerticalAlignment="Center" />
+                                    <TextBlock x:Name="MethodHintText" Visibility="Collapsed" />
+                                    <ComboBox Grid.Column="1" x:Name="MethodComboBox"
+                                              Style="{StaticResource OledComboBox}" Height="23"
+                                              FontSize="9"
+                                              SelectedIndex="0"
+                                              SelectionChanged="MethodComboBox_SelectionChanged">
+                                        <ComboBoxItem x:Name="MethodDccItem" Tag="DccGovernor" Content="DCC algorithm" />
+                                        <ComboBoxItem x:Name="MethodNvidiaItem" Tag="NvidiaEfficiency" Content="NVIDIA Ultra Efficiency" />
+                                    </ComboBox>
+                                </Grid>
+                                <Grid Grid.Row="2" x:Name="TargetControlRow">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="51" />
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="50" />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock x:Name="TargetHeaderText" Text="TARGET FPS"
+                                               FontSize="8" FontWeight="SemiBold"
+                                               VerticalAlignment="Center" />
+                                    <TextBlock x:Name="TargetHintText" Visibility="Collapsed" />
+                                    <Slider Grid.Column="1" x:Name="TargetFpsSlider"
+                                            Style="{StaticResource OledSlider}"
+                                            Minimum="55" Maximum="1000" TickFrequency="5"
+                                            IsSnapToTickEnabled="True" IsMoveToPointEnabled="True"
+                                            Margin="4,1,7,0" ValueChanged="TargetFpsSlider_ValueChanged" />
+                                     <TextBox Grid.Column="2" x:Name="TargetFpsBox"
+                                              Style="{StaticResource OledTextBox}" Height="21"
+                                              MaxLength="4" FontSize="11" FontWeight="Bold" Padding="2,0"
+                                              LostKeyboardFocus="TargetFpsBox_LostKeyboardFocus"
+                                              KeyDown="TargetFpsBox_KeyDown" />
+                                    <Border Grid.Column="1" Grid.ColumnSpan="2"
+                                            x:Name="AutomaticTargetPanel"
+                                            Background="{StaticResource OledPanel}"
+                                            BorderBrush="{StaticResource OledBorder}"
+                                            BorderThickness="1" CornerRadius="3"
+                                            Height="21" Visibility="Collapsed">
+                                        <TextBlock x:Name="AutomaticTargetText" Text="AUTO · GPU LOAD"
+                                                   FontFamily="Consolas" FontSize="9"
+                                                   FontWeight="SemiBold"
+                                                   Foreground="{StaticResource NvGreen}"
+                                                   HorizontalAlignment="Center"
+                                                   VerticalAlignment="Center" />
+                                    </Border>
+                                 </Grid>
+                                 <Grid Grid.Row="4">
+                                     <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="90" />
+                                        <ColumnDefinition Width="80" />
+                                        <ColumnDefinition Width="51" />
+                                        <ColumnDefinition Width="43" />
+                                     </Grid.ColumnDefinitions>
+                                    <ComboBox x:Name="ActivationScopeComboBox"
+                                              Style="{StaticResource OledComboBox}" Height="22"
+                                              SelectedIndex="0"
+                                              SelectionChanged="ActivationScopeComboBox_SelectionChanged">
+                                        <ComboBoxItem x:Name="ActivationPersistentItem" Tag="Persistent"
+                                                      Content="Global" />
+                                        <ComboBoxItem x:Name="ActivationPerGameItem" Tag="PerGame"
+                                                      Content="Per game" />
+                                    </ComboBox>
+                                     <CheckBox Grid.Column="1" x:Name="FrameLimiterCheckBox"
+                                               Style="{StaticResource OledOptionCheckBox}"
+                                              Margin="5,0,0,0" Content="Frame limit"
+                                               Click="FrameLimiterCheckBox_Click" />
+                                    <CheckBox Grid.Column="2" x:Name="VsyncCheckBox"
+                                              Style="{StaticResource OledOptionCheckBox}"
+                                              Margin="2,0,0,0" Content="VSync"
+                                              Click="VsyncCheckBox_Click" />
+                                    <TextBox Grid.Column="3" x:Name="FrameLimiterFpsBox"
+                                             Style="{StaticResource OledTextBox}" Height="21"
+                                             Margin="0,0,5,0"
+                                             MaxLength="4" FontSize="10" FontWeight="Bold"
+                                             Visibility="Collapsed"
+                                             LostKeyboardFocus="FrameLimiterFpsBox_LostKeyboardFocus"
+                                             KeyDown="FrameLimiterFpsBox_KeyDown" />
+                                 </Grid>
+                            </Grid>
+                        </Border>
+                    </StackPanel>
+
+                    <Grid Grid.Row="2" Margin="8,0,8,3">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="16" />
+                            <RowDefinition Height="12" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <TextBlock x:Name="StatusText" Text="Ready" FontFamily="Consolas"
+                                   FontSize="9" Foreground="{StaticResource TextSecondary}"
+                                   Grid.ColumnSpan="3" VerticalAlignment="Center"
+                                   TextTrimming="CharacterEllipsis"
+                                   ToolTip="{Binding Text, RelativeSource={RelativeSource Self}}"
+                                   ToolTipService.ShowDuration="60000" />
+                        <StackPanel Grid.Row="1" Grid.Column="1" x:Name="ActivityIndicator"
+                                    Orientation="Horizontal" VerticalAlignment="Center" Margin="6,0,0,0">
+                            <Ellipse x:Name="ActivityLamp" Width="5" Height="5"
+                                     Fill="{StaticResource TextMuted}" Margin="0,0,3,0" />
+                            <TextBlock x:Name="ActivityLampText" Text="OFF" FontFamily="Consolas"
+                                       FontSize="9" FontWeight="SemiBold"
+                                       Foreground="{StaticResource TextMuted}" />
+                        </StackPanel>
+                        <TextBlock Grid.Row="1" Grid.Column="2" x:Name="VersionText" Text="alpha" FontFamily="Consolas"
+                                   FontSize="9" Foreground="{StaticResource TextMuted}"
+                                   VerticalAlignment="Center" Margin="7,0,0,0" />
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+    </Viewbox>
+</Window>

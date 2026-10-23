@@ -1,7 +1,8 @@
 # Security and recovery
 
-Please report security issues privately to the NV-UV maintainer before opening
-a public issue.
+Please report security issues through a private
+[GitHub security advisory](https://github.com/christianp403-spec/nv-uv-dcc/security/advisories/new)
+before opening a public issue.
 
 ## Recovery
 

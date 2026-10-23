@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/Dcc.Core/Dcc.Core.csproj" />
+  <Project Path="src/Dcc.Helper/Dcc.Helper.csproj" />
+  <Project Path="src/Dcc.App/Dcc.App.csproj" />
+  <Project Path="tests/Dcc.SelfTest/Dcc.SelfTest.csproj" />
+</Solution>

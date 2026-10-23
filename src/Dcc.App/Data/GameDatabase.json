@@ -1,0 +1,3312 @@
+{
+  "version": "2.15",
+  "generated": "2026-08-09",
+  "games": [
+    {
+      "name": "007 First Light",
+      "process": "engine.exe",
+      "aliases": [
+        "007firstlight.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "2XKO",
+      "process": "lion-win64-shipping.exe"
+    },
+    {
+      "name": "3DMark",
+      "process": "3dmark.exe",
+      "aliases": [
+        "3dmarkcmd.exe",
+        "3dmarklauncher.exe"
+      ]
+    },
+    {
+      "name": "7 Days to Die",
+      "process": "7daystodie.exe"
+    },
+    {
+      "name": "A Difficult Game About ROLLING - ReUpRise",
+      "process": "reuprise-win64-shipping.exe"
+    },
+    {
+      "name": "A Hat in Time",
+      "process": "hatintimegame.exe"
+    },
+    {
+      "name": "A Plague Tale: Innocence",
+      "process": "aplaguetaleinnocence_x64.exe"
+    },
+    {
+      "name": "A Plague Tale: Requiem",
+      "process": "aplaguetalerequiem_x64.exe"
+    },
+    {
+      "name": "A Quiet Place: The Road Ahead",
+      "process": "aquietplace.exe",
+      "aliases": [
+        "aquietplace-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "A Virus Named TOM",
+      "process": "avirusnamedtom.exe"
+    },
+    {
+      "name": "AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome",
+      "process": "aaaa.exe"
+    },
+    {
+      "name": "Abiotic Factor",
+      "process": "abioticfactor-win64-shipping.exe",
+      "aliases": [
+        "abioticfactor.exe",
+        "abioticfactor-win64-test.exe"
+      ]
+    },
+    {
+      "name": "ABZU",
+      "process": "abzugame-win64-shipping.exe"
+    },
+    {
+      "name": "ACE COMBAT 7: SKIES UNKNOWN",
+      "process": "ace7game.exe"
+    },
+    {
+      "name": "Across the Obelisk",
+      "process": "acrosstheobelisk.exe"
+    },
+    {
+      "name": "Against the Storm",
+      "process": "against the storm.exe"
+    },
+    {
+      "name": "Age of Empires II (2013)",
+      "process": "aoe2hd_s_launcher.exe"
+    },
+    {
+      "name": "Age of Empires II: Definitive Edition",
+      "process": "aoe2de_s.exe"
+    },
+    {
+      "name": "Age of Empires III: Definitive Edition",
+      "process": "aoe3de_s.exe"
+    },
+    {
+      "name": "Age of Empires IV",
+      "process": "ageofempires4.exe",
+      "aliases": [
+        "reliccardinal.exe"
+      ]
+    },
+    {
+      "name": "Age of Wonders 4",
+      "process": "aow4.exe"
+    },
+    {
+      "name": "Age of Wonders: Planetfall",
+      "process": "aowpf.exe"
+    },
+    {
+      "name": "Aim Hero",
+      "process": "aimhero.exe"
+    },
+    {
+      "name": "Akimbot",
+      "process": "akimbot-win64-shipping.exe",
+      "aliases": [
+        "akimbot.exe"
+      ]
+    },
+    {
+      "name": "Alan Wake",
+      "process": "alanwake.exe"
+    },
+    {
+      "name": "Alan Wake 2",
+      "process": "alanwake2.exe",
+      "aliases": [
+        "game_rmdwin7_r.exe"
+      ]
+    },
+    {
+      "name": "Alan Wake Remastered",
+      "process": "game_f_x64.exe",
+      "aliases": [
+        "game_f_x64_eos.exe",
+        "game_x64.exe"
+      ]
+    },
+    {
+      "name": "Alan Wake's American Nightmare",
+      "process": "alan_wakes_american_nightmare.exe"
+    },
+    {
+      "name": "Albion Online",
+      "process": "albion-online.exe"
+    },
+    {
+      "name": "Alien Rogue Incursion VR",
+      "process": "midnight-win64-shipping.exe"
+    },
+    {
+      "name": "Alien: Isolation",
+      "process": "ai.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Aliens vs. Predator",
+      "process": "avp_dx11.exe"
+    },
+    {
+      "name": "Aliens: Colonial Marines",
+      "process": "acm.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Aliens: Fireteam Elite",
+      "process": "endeavor.exe"
+    },
+    {
+      "name": "Alone in the Dark",
+      "process": "alone.exe"
+    },
+    {
+      "name": "AMID EVIL",
+      "process": "amidevil.exe",
+      "aliases": [
+        "amidevil-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Amnesia: The Dark Descent",
+      "process": "amnesia.exe"
+    },
+    {
+      "name": "Among Us",
+      "process": "among us.exe"
+    },
+    {
+      "name": "Ancestors: The Humankind Odyssey",
+      "process": "ancestors-win64-shipping.exe"
+    },
+    {
+      "name": "Anno 117: Pax Romana",
+      "process": "anno117.exe"
+    },
+    {
+      "name": "Anno 1404",
+      "process": "anno4.exe"
+    },
+    {
+      "name": "Anno 1800",
+      "process": "anno7.exe",
+      "aliases": [
+        "anno1800.exe"
+      ]
+    },
+    {
+      "name": "Anomaly Zone",
+      "process": "anomalyzone.exe"
+    },
+    {
+      "name": "Arc Raiders",
+      "process": "arcraiders.exe",
+      "aliases": [
+        "pioneergame.exe",
+        "pioneergame-d.exe",
+        "pioneergame-e.exe"
+      ]
+    },
+    {
+      "name": "ArmA 3",
+      "process": "arma3_x64.exe"
+    },
+    {
+      "name": "Assassin's Creed IV Black Flag",
+      "process": "ac4bfsp.exe"
+    },
+    {
+      "name": "Assassin's Creed IV Black Flag Resynced",
+      "process": "acblackflag.exe",
+      "aliases": [
+        "acblackflag_plus.exe"
+      ]
+    },
+    {
+      "name": "Assassin's Creed Mirage",
+      "process": "acmirage.exe",
+      "aliases": [
+        "acmirage_plus.exe",
+        "scimitar_engine_win64_vs2019_dx12_fx.exe",
+        "scimitar_engine_win64_vs2019_dx12_mx.exe"
+      ]
+    },
+    {
+      "name": "Assassin's Creed Shadows",
+      "process": "acshadows.exe"
+    },
+    {
+      "name": "Assassin's Creed Valhalla",
+      "process": "acvalhalla.exe",
+      "aliases": [
+        "acvalhalla_plus.exe",
+        "discoverytourvikingage.exe",
+        "discoverytourvikingage_plus.exe"
+      ]
+    },
+    {
+      "name": "Assetto Corsa EVO",
+      "process": "assettocorsaevo.exe"
+    },
+    {
+      "name": "Assetto Corsa Rally",
+      "process": "acr.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "ASTRONEER",
+      "process": "astro-win64-shipping.exe"
+    },
+    {
+      "name": "Atomfall",
+      "process": "atomfall.exe"
+    },
+    {
+      "name": "Atomic Heart",
+      "process": "atomicheart.exe",
+      "aliases": [
+        "atomicheart-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Atonement: Scourge of Time",
+      "process": "atonement.exe"
+    },
+    {
+      "name": "Audiosurf",
+      "process": "questviewer.exe"
+    },
+    {
+      "name": "Avowed",
+      "process": "avowed.exe",
+      "aliases": [
+        "avowed-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Back 4 Blood",
+      "process": "gobi.exe",
+      "aliases": [
+        "back4blood.exe",
+        "gobi-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Baldur's Gate 3",
+      "process": "bg3.exe",
+      "aliases": [
+        "bg3_dx11.exe",
+        "bg3_release.exe",
+        "bg3_shipping.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Baldur's Gate: Enhanced Edition",
+      "process": "bgee.exe"
+    },
+    {
+      "name": "Banishers: Ghosts of New Eden",
+      "process": "banishers-win64-shipping.exe"
+    },
+    {
+      "name": "Baphomets Fluch 5 - Der Sündenfall",
+      "process": "bs5.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Bastion",
+      "process": "bastion.exe"
+    },
+    {
+      "name": "Batman: Arkham City GOTY",
+      "process": "batmanac.exe"
+    },
+    {
+      "name": "Battlefield 2042",
+      "process": "bf.exe",
+      "aliases": [
+        "bf2042.exe",
+        "battlefieldgame.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Battlefield 6",
+      "process": "bf6.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Battlefield V",
+      "process": "bf5.exe",
+      "aliases": [
+        "bfv.exe",
+        "bfvob.exe",
+        "casablanca.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Beat Hazard",
+      "process": "beathazard.exe"
+    },
+    {
+      "name": "Bellwright",
+      "process": "bellwrightgame-win64-shipping.exe"
+    },
+    {
+      "name": "Ben and Ed - Blood Party",
+      "process": "benanded.exe"
+    },
+    {
+      "name": "BioShock",
+      "process": "bioshock.exe"
+    },
+    {
+      "name": "BioShock 2",
+      "process": "bioshock2.exe"
+    },
+    {
+      "name": "BioShock 2 Remastered",
+      "process": "bioshock2hd.exe"
+    },
+    {
+      "name": "BioShock Infinite",
+      "process": "bioshockinfinite.exe"
+    },
+    {
+      "name": "BioShock Remastered",
+      "process": "bioshockhd.exe"
+    },
+    {
+      "name": "Black Desert",
+      "process": "blackdesert32.exe",
+      "aliases": [
+        "blackdesert64.exe",
+        "blackdesert_launcher.exe"
+      ]
+    },
+    {
+      "name": "Black Mesa",
+      "process": "bms.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Black Myth: Wukong",
+      "process": "b1.exe",
+      "aliases": [
+        "b1-win64-shipping.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Bleeding Edge",
+      "process": "mobladeclient-win64-shipping.exe"
+    },
+    {
+      "name": "Blood Bowl: Legendary Edition",
+      "process": "bloodbowl.exe"
+    },
+    {
+      "name": "Bloodstained: Ritual of the Night",
+      "process": "bloodstainedrotn-win64-shipping.exe"
+    },
+    {
+      "name": "Bongo Cat",
+      "process": "bongocat.exe"
+    },
+    {
+      "name": "Borderlands 2",
+      "process": "borderlands2.exe"
+    },
+    {
+      "name": "Borderlands 4",
+      "process": "borderlands4.exe"
+    },
+    {
+      "name": "Borderlands: The Pre-Sequel",
+      "process": "borderlandspresequel.exe"
+    },
+    {
+      "name": "Braid",
+      "process": "braid.exe"
+    },
+    {
+      "name": "Breathedge",
+      "process": "breathedge-win64-shipping.exe"
+    },
+    {
+      "name": "Bright Memory: Infinite",
+      "process": "brightmemoryinfinite.exe",
+      "aliases": [
+        "brightmemoryinfinite-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Broforce",
+      "process": "broforce_beta.exe"
+    },
+    {
+      "name": "Brütal Legend",
+      "process": "brutallegend.exe"
+    },
+    {
+      "name": "Bud Spencer & Terence Hill - Slaps And Beans",
+      "process": "slapsandbeans.exe"
+    },
+    {
+      "name": "Bulletstorm: Full Clip Edition",
+      "process": "stormgame-win64-shipping.exe"
+    },
+    {
+      "name": "Bunch Of Heroes",
+      "process": "comcat.exe"
+    },
+    {
+      "name": "Call of Duty: Black Ops",
+      "process": "blackops.exe"
+    },
+    {
+      "name": "Call of Duty: Black Ops 6",
+      "process": "sp24-cod.exe",
+      "aliases": [
+        "cod24-cod.exe"
+      ]
+    },
+    {
+      "name": "Call of Duty: Black Ops 7",
+      "process": "cod25-cod.exe",
+      "aliases": [
+        "mp25-cod.exe"
+      ]
+    },
+    {
+      "name": "Call of Duty: Black Ops Cold War",
+      "process": "blackopscoldwar.exe",
+      "aliases": [
+        "blackopscoldwaresports.exe"
+      ]
+    },
+    {
+      "name": "Call of Duty: Ghosts",
+      "process": "iw6mp64_ship.exe"
+    },
+    {
+      "name": "Call of Duty: Modern Warfare 2 (2022)",
+      "process": "sp22-cod.exe",
+      "aliases": [
+        "cod22-cod.exe"
+      ]
+    },
+    {
+      "name": "Call of Duty: Modern Warfare 2019",
+      "process": "modernwarfare.exe",
+      "aliases": [
+        "modernwarfare_cdl.exe",
+        "modern warfare launcher.exe"
+      ]
+    },
+    {
+      "name": "Call of Duty: Modern Warfare 3 (2023)",
+      "process": "sp23-cod.exe",
+      "aliases": [
+        "cod23-cod.exe"
+      ]
+    },
+    {
+      "name": "Call of Duty: Vanguard",
+      "process": "vanguard.exe"
+    },
+    {
+      "name": "Call of Duty: WWII",
+      "process": "s2_mp64_ship.exe",
+      "aliases": [
+        "s2_sp64_ship.exe"
+      ]
+    },
+    {
+      "name": "Call of Juarez",
+      "process": "coj.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Call of Juarez Gunslinger",
+      "process": "cojgunslinger.exe"
+    },
+    {
+      "name": "Call of Juarez: Bound in Blood",
+      "process": "cojbibgame_x86.exe"
+    },
+    {
+      "name": "Carmageddon: Max Damage",
+      "process": "carmagedon_md.exe"
+    },
+    {
+      "name": "Carmageddon: Reincarnation",
+      "process": "carmageddonreincarnation.exe"
+    },
+    {
+      "name": "Castlevania: Lords of Shadow - Ultimate Edition",
+      "process": "castlevanialosu.exe"
+    },
+    {
+      "name": "Cave Story+",
+      "process": "cavestory+.exe"
+    },
+    {
+      "name": "Chernobylite",
+      "process": "chernobylgame.exe",
+      "aliases": [
+        "chernobylgame-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Chernobylite Complete Edition",
+      "process": "chernobylite.exe"
+    },
+    {
+      "name": "Chivalry 2",
+      "process": "chivalry2.exe",
+      "aliases": [
+        "chivalry2-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Chivalry: Medieval Warfare",
+      "process": "cmw.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Chorus",
+      "process": "chorus.exe",
+      "aliases": [
+        "spaceprototype.exe",
+        "chorus-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Cinemaware Anthology: 1986-1991",
+      "process": "cinemaware.exe"
+    },
+    {
+      "name": "Cities XL Platinum",
+      "process": "citiesxl2012.exe"
+    },
+    {
+      "name": "Cities: Skylines II",
+      "process": "cities2.exe"
+    },
+    {
+      "name": "Civilization VII",
+      "process": "civ7_win64_dx12_finalrelease.exe",
+      "aliases": [
+        "civ7_win64_vulkan_finalrelease.exe",
+        "civ7_win64_dx12_release.exe",
+        "civ7_win64_vulkan_release.exe"
+      ]
+    },
+    {
+      "name": "Clair Obscur: Expedition 33",
+      "process": "expedition33_steam.exe",
+      "aliases": [
+        "sandfall-win64-shipping.exe",
+        "sandfalleos-win64-shipping.exe",
+        "expedition33_egs.exe"
+      ]
+    },
+    {
+      "name": "Code Vein",
+      "process": "codevein-win64-shipping.exe"
+    },
+    {
+      "name": "Cogs",
+      "process": "cogs.exe"
+    },
+    {
+      "name": "Command & Conquer Remastered Collection",
+      "process": "cncremasteredited.exe",
+      "aliases": [
+        "clientg.exe",
+        "clientlauncherg.exe"
+      ]
+    },
+    {
+      "name": "Company of Heroes 2",
+      "process": "reliccoh2.exe"
+    },
+    {
+      "name": "Company of Heroes 3",
+      "process": "reliccoh3.exe"
+    },
+    {
+      "name": "Conan Exiles Enhanced",
+      "process": "conansandbox-win64-shipping.exe",
+      "aliases": [
+        "conansandbox.exe"
+      ]
+    },
+    {
+      "name": "Confrontation",
+      "process": "confrontation.exe"
+    },
+    {
+      "name": "Contraband Police",
+      "process": "contrabandpolice.exe"
+    },
+    {
+      "name": "Control",
+      "process": "control_dx12.exe",
+      "aliases": [
+        "control_dx11.exe",
+        "game_rmdwin10_r.exe"
+      ]
+    },
+    {
+      "name": "Counter-Strike 2",
+      "process": "cs2.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Craftopia",
+      "process": "craftopia.exe"
+    },
+    {
+      "name": "Crayon Physics Deluxe",
+      "process": "crayonphysics.exe"
+    },
+    {
+      "name": "Crazy Taxi",
+      "process": "crazytaxi.exe"
+    },
+    {
+      "name": "Crime Boss: Rockay City",
+      "process": "crimeboss.exe"
+    },
+    {
+      "name": "Crimson Desert",
+      "process": "crimsondesert.exe"
+    },
+    {
+      "name": "Crysis",
+      "process": "crysis.exe"
+    },
+    {
+      "name": "Crysis 2 Remastered",
+      "process": "crysis2remastered.exe"
+    },
+    {
+      "name": "Crysis 3 Remastered",
+      "process": "crysis3remastered.exe"
+    },
+    {
+      "name": "Crysis Remastered",
+      "process": "crysisremastered.exe"
+    },
+    {
+      "name": "Crysis Warhead",
+      "process": "crysis64.exe"
+    },
+    {
+      "name": "Cthulhu: The Cosmic Abyss",
+      "process": "cthulhu-win64-shipping.exe",
+      "aliases": [
+        "cthulhu.exe",
+        "cosmicabyss-win64-shipping.exe",
+        "cosmicabyss.exe",
+        "thecosmicabyss-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Cyberpunk 2077",
+      "process": "cyberpunk2077.exe"
+    },
+    {
+      "name": "DAEMON X MACHINA",
+      "process": "deathangel-win64-shipping.exe"
+    },
+    {
+      "name": "Dakar Desert Rally",
+      "process": "dakar2game.exe",
+      "aliases": [
+        "dakar2game-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Dark Messiah of Might & Magic",
+      "process": "mm.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Dark Sector",
+      "process": "darksector.exe"
+    },
+    {
+      "name": "Darwinia",
+      "process": "darwinia.exe"
+    },
+    {
+      "name": "DayZ",
+      "process": "dayz_x64.exe"
+    },
+    {
+      "name": "Dead Island",
+      "process": "deadisland.exe"
+    },
+    {
+      "name": "Dead Island Definitive Edition",
+      "process": "deadislandgame.exe"
+    },
+    {
+      "name": "Dead Rising 2: Off the Record",
+      "process": "deadrising2otr.exe"
+    },
+    {
+      "name": "Dead Rising 3",
+      "process": "deadrising3.exe"
+    },
+    {
+      "name": "Dead Rising 4",
+      "process": "deadrising4.exe"
+    },
+    {
+      "name": "Dead Rising Deluxe Remaster",
+      "process": "deadrisingdeluxeremaster.exe"
+    },
+    {
+      "name": "Dead Space (Remake)",
+      "process": "dead space.exe"
+    },
+    {
+      "name": "Deadlight",
+      "process": "deadlight.exe"
+    },
+    {
+      "name": "Dear Esther",
+      "process": "dearesther.exe"
+    },
+    {
+      "name": "Dear Esther: Landmark Edition",
+      "process": "dearesther_le.exe"
+    },
+    {
+      "name": "Death Stranding",
+      "process": "ds.exe",
+      "aliases": [
+        "deathstranding.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "DEATH STRANDING 2: ON THE BEACH",
+      "process": "ds2.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Deathloop",
+      "process": "deathloop.exe",
+      "aliases": [
+        "deathloop_retail.exe"
+      ]
+    },
+    {
+      "name": "DEFCON",
+      "process": "defcon.exe"
+    },
+    {
+      "name": "Deliver Us Mars",
+      "process": "deliverusmars.exe",
+      "aliases": [
+        "deliverusmars-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Delta Force",
+      "process": "deltaforceclient-win64-shipping.exe"
+    },
+    {
+      "name": "Deponia",
+      "process": "deponia.exe"
+    },
+    {
+      "name": "Destiny 2",
+      "process": "destiny2.exe"
+    },
+    {
+      "name": "Detroit: Become Human",
+      "process": "detroitbecomehuman.exe"
+    },
+    {
+      "name": "Deus Ex: Human Revolution - Director's Cut",
+      "process": "dxhr.exe"
+    },
+    {
+      "name": "Diablo IV",
+      "process": "diablo iv.exe",
+      "aliases": [
+        "fenris.exe"
+      ]
+    },
+    {
+      "name": "Directive 8020",
+      "process": "directive8020-win64-shipping.exe",
+      "aliases": [
+        "directive8020.exe"
+      ]
+    },
+    {
+      "name": "DiRT 3",
+      "process": "dirt3.exe"
+    },
+    {
+      "name": "DiRT 3 Complete Edition",
+      "process": "dirt3_game.exe"
+    },
+    {
+      "name": "DiRT Showdown",
+      "process": "showdown.exe"
+    },
+    {
+      "name": "Disco Elysium",
+      "process": "disco.exe"
+    },
+    {
+      "name": "Divinity II: Developer's Cut",
+      "process": "divinity2.exe"
+    },
+    {
+      "name": "Divinity: Original Sin Enhanced Edition",
+      "process": "eos.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Don't Starve Together",
+      "process": "dontstarvetogether.exe"
+    },
+    {
+      "name": "DOOM (2016)",
+      "process": "doommain64vk.exe"
+    },
+    {
+      "name": "DOOM + DOOM II",
+      "process": "doom2.exe"
+    },
+    {
+      "name": "DOOM 3",
+      "process": "doom3.exe"
+    },
+    {
+      "name": "DOOM 3 BFG Edition",
+      "process": "doom3bfg.exe"
+    },
+    {
+      "name": "DOOM 64",
+      "process": "doom64_x64.exe"
+    },
+    {
+      "name": "Doom Eternal",
+      "process": "ghostx64vk.exe",
+      "aliases": [
+        "doometernalx64vk.exe"
+      ]
+    },
+    {
+      "name": "DOOM: The Dark Ages",
+      "process": "doomthedarkages.exe",
+      "aliases": [
+        "titanx64vk.exe"
+      ]
+    },
+    {
+      "name": "Dorfromantik",
+      "process": "dorfromantik.exe"
+    },
+    {
+      "name": "Dota 2",
+      "process": "dota.exe",
+      "aliases": [
+        "dota2.exe"
+      ]
+    },
+    {
+      "name": "Dragon Age: The Veilguard",
+      "process": "dragon age the veilguard.exe",
+      "aliases": [
+        "morrison.main_win64_final.exe",
+        "dragon age the veilguard ea.exe"
+      ]
+    },
+    {
+      "name": "Dragon's Dogma 2",
+      "process": "dd2.exe",
+      "aliases": [
+        "dd2_denuvo.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Draw a Stickman: EPIC",
+      "process": "drawastickman.exe"
+    },
+    {
+      "name": "Draw a Stickman: EPIC 2",
+      "process": "drawastickman2.exe"
+    },
+    {
+      "name": "Draw Your Game",
+      "process": "drawyourgame.exe"
+    },
+    {
+      "name": "DUCKSIDE",
+      "process": "ducksideclient.exe",
+      "aliases": [
+        "ducksideclient-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Duke Nukem 3D: Megaton Edition",
+      "process": "duke3d.exe"
+    },
+    {
+      "name": "Dune: Awakening",
+      "process": "dunesandbox.exe",
+      "aliases": [
+        "dunesandbox-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Dungeon Siege III",
+      "process": "dungeon siege iii.exe"
+    },
+    {
+      "name": "Dungeonborne",
+      "process": "dungeonborne.exe"
+    },
+    {
+      "name": "Dungeons of Dredmor",
+      "process": "dungeonsofdredmor.exe"
+    },
+    {
+      "name": "Dying Light",
+      "process": "dyinglightgame.exe"
+    },
+    {
+      "name": "Dying Light 2 Stay Human",
+      "process": "dyinglightgame_x64_rd.exe",
+      "aliases": [
+        "dyinglightgame_x64_rwp.exe",
+        "dyinglightgame_x64_rwdi.exe"
+      ]
+    },
+    {
+      "name": "Dying Light: The Beast",
+      "process": "dyinglightgame_thebeast_x64_rd.exe",
+      "aliases": [
+        "dyinglightgame_thebeast_x64_rwm.exe",
+        "dyinglightgame_thebeast_x64_rwp.exe",
+        "dyinglightgame_thebeast_x64_rwdi.exe"
+      ]
+    },
+    {
+      "name": "DYNASTY WARRIORS: ORIGINS",
+      "process": "dworigins.exe"
+    },
+    {
+      "name": "EA SPORTS F1 25",
+      "process": "f1_25.exe",
+      "aliases": [
+        "f1_2025_beta_vs2022_win64_steam_debugopt_dx12_clang_unity.exe",
+        "f1_2025_beta_vs2022_win64_steam_profile_dx12_clang_unity.exe",
+        "f1_2025_vs2022_win64_steam_profile_dx12_clang_unity.exe",
+        "f1_2025_beta_vs2022_win64_steam_release_dx12_clang_unity.exe"
+      ]
+    },
+    {
+      "name": "Eets",
+      "process": "eets.exe"
+    },
+    {
+      "name": "Eets Munchies",
+      "process": "eetsmunchies.exe"
+    },
+    {
+      "name": "Elden Ring",
+      "process": "eldenring.exe"
+    },
+    {
+      "name": "ELDEN RING NIGHTREIGN",
+      "process": "nightreign.exe"
+    },
+    {
+      "name": "Electronic Super Joy",
+      "process": "electronicsuperjoy.exe"
+    },
+    {
+      "name": "ELEX",
+      "process": "elex.exe"
+    },
+    {
+      "name": "Empire of the Ants",
+      "process": "empire.exe",
+      "aliases": [
+        "empire-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Empulse",
+      "process": "orionclient-win64-shipping.exe",
+      "aliases": [
+        "orionclient.exe"
+      ]
+    },
+    {
+      "name": "Enshrouded",
+      "process": "enshrouded.exe"
+    },
+    {
+      "name": "Escape From Tarkov",
+      "process": "escapefromtarkov.exe"
+    },
+    {
+      "name": "Eufloria",
+      "process": "eufloria.exe"
+    },
+    {
+      "name": "Eufloria HD",
+      "process": "eufloriahd.exe"
+    },
+    {
+      "name": "Euro Truck Simulator 2",
+      "process": "eurotrucks2.exe"
+    },
+    {
+      "name": "EVERSPACE 2",
+      "process": "everspace2.exe",
+      "aliases": [
+        "es2-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Evolve Stage 2",
+      "process": "evolve.exe"
+    },
+    {
+      "name": "F.E.A.R.",
+      "process": "fear.exe"
+    },
+    {
+      "name": "F.E.A.R. 2: Project Origin",
+      "process": "fear2.exe"
+    },
+    {
+      "name": "F.E.A.R. 3",
+      "process": "f.e.a.r.3.exe"
+    },
+    {
+      "name": "F.E.A.R.: Extraction Point",
+      "process": "fearxp.exe"
+    },
+    {
+      "name": "F.E.A.R.: Perseus Mandate",
+      "process": "fearpm.exe"
+    },
+    {
+      "name": "F.I.S.T.: Forged In Shadow Torch",
+      "process": "zinganggame.exe",
+      "aliases": [
+        "zinganggame-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "F1 2022",
+      "process": "f1_22.exe",
+      "aliases": [
+        "f1_2022_vs2019_win64_steam_release_dx12_unity.exe"
+      ]
+    },
+    {
+      "name": "F1 23",
+      "process": "f1_23.exe",
+      "aliases": [
+        "f1_2023_vs2022_win64_steam_release_dx12_clang_unity.exe"
+      ]
+    },
+    {
+      "name": "F1 24",
+      "process": "f1_24.exe",
+      "aliases": [
+        "f1_2024_vs2022_win64_steam_release_dx12_clang_unity.exe"
+      ]
+    },
+    {
+      "name": "Fallout",
+      "process": "falloutw.exe"
+    },
+    {
+      "name": "Fallout 2",
+      "process": "fallout2.exe"
+    },
+    {
+      "name": "Fallout 4",
+      "process": "fallout4.exe"
+    },
+    {
+      "name": "Far Cry",
+      "process": "farcry.exe"
+    },
+    {
+      "name": "Far Cry 2",
+      "process": "farcry2.exe"
+    },
+    {
+      "name": "Far Cry 3",
+      "process": "farcry3.exe"
+    },
+    {
+      "name": "Far Cry 6",
+      "process": "farcry6.exe",
+      "aliases": [
+        "fclaunch_p64d3d12.exe",
+        "fclaunch_r64d3d12.exe",
+        "fclaunch_rt64d3d12.exe"
+      ]
+    },
+    {
+      "name": "FBC: Firebreak",
+      "process": "fbcfirebreak.exe"
+    },
+    {
+      "name": "FEZ",
+      "process": "fez.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "FINAL FANTASY VII REBIRTH",
+      "process": "ff7rebirth_.exe"
+    },
+    {
+      "name": "FINAL FANTASY XIV Online",
+      "process": "ffxiv_dx11.exe"
+    },
+    {
+      "name": "Final Fantasy XV Windows Edition",
+      "process": "ffxv.exe",
+      "aliases": [
+        "ffxv_o.exe",
+        "ffxv_s.exe",
+        "ffxv_u.exe"
+      ]
+    },
+    {
+      "name": "Final Fantasy XVI",
+      "process": "ffxvi.exe"
+    },
+    {
+      "name": "Fingered",
+      "process": "fingered.exe"
+    },
+    {
+      "name": "Five Nights at Freddy's: Security Breach",
+      "process": "fnaf9.exe",
+      "aliases": [
+        "fnaf9-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Flintlock: The Siege of Dawn",
+      "process": "saltpeter.exe",
+      "aliases": [
+        "saltpeter-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Foreign Legion: Buckets of Blood",
+      "process": "foreignlegion.exe"
+    },
+    {
+      "name": "Fortnite",
+      "process": "fortniteclient.exe",
+      "aliases": [
+        "fortnitelauncher.exe",
+        "fortniteclient-win64-shipping.exe",
+        "fortniteclient-win64-shipping_be.exe"
+      ]
+    },
+    {
+      "name": "Forza Horizon 5",
+      "process": "forzahorizon5.exe",
+      "aliases": [
+        "forza_gaming.desktop.x64_release.exe",
+        "forza_gaming.desktop.x64_release_noagility.exe"
+      ]
+    },
+    {
+      "name": "Forza Horizon 6",
+      "process": "forzahorizon6.exe"
+    },
+    {
+      "name": "Forza Motorsport",
+      "process": "forza_gaming.desktop.x64_release_final.exe",
+      "aliases": [
+        "forza_steamworks_release_final.exe"
+      ]
+    },
+    {
+      "name": "Fractal: Make Blooms Not War",
+      "process": "fractal.exe"
+    },
+    {
+      "name": "Frostpunk 2",
+      "process": "frostpunk2.exe",
+      "aliases": [
+        "frostpunk2-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "FTL: Faster Than Light",
+      "process": "ftlgame.exe"
+    },
+    {
+      "name": "Funko Fusion",
+      "process": "funkofusion.exe",
+      "aliases": [
+        "funkofusion-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Game Dev Tycoon",
+      "process": "gamedevtycoon.exe"
+    },
+    {
+      "name": "Game of Thrones",
+      "process": "shippingpc-agotgame.exe"
+    },
+    {
+      "name": "Gemini Rue",
+      "process": "geminirue.exe"
+    },
+    {
+      "name": "Genshin Impact",
+      "process": "genshinimpact.exe"
+    },
+    {
+      "name": "Geometry Wars: Retro Evolved",
+      "process": "geometrywars.exe"
+    },
+    {
+      "name": "Ghost of Tsushima: Directors Cut",
+      "process": "ghostoftsushima.exe"
+    },
+    {
+      "name": "Ghostbusters: The Video Game",
+      "process": "ghost_w32.exe"
+    },
+    {
+      "name": "Ghostrunner",
+      "process": "ghostrunner.exe",
+      "aliases": [
+        "ghostrunner-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Ghostrunner 2",
+      "process": "ghostrunner2.exe",
+      "aliases": [
+        "ghostrunner2-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "GhostWire: Tokyo",
+      "process": "gwt.exe",
+      "aliases": [
+        "snowfall.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "God of War",
+      "process": "gow.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "God of War Ragnarok",
+      "process": "gowr.exe"
+    },
+    {
+      "name": "Golf It!",
+      "process": "golfit.exe"
+    },
+    {
+      "name": "Gone Home",
+      "process": "gonehome.exe"
+    },
+    {
+      "name": "Gotham Knights",
+      "process": "mercury.exe",
+      "aliases": [
+        "gothamknights.exe",
+        "mercurypredenuvo.exe",
+        "mercury-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Gothic 1 Classic",
+      "process": "gothic.exe"
+    },
+    {
+      "name": "Gothic 3",
+      "process": "gothic3.exe"
+    },
+    {
+      "name": "Gothic II: Gold Classic",
+      "process": "gothic2.exe"
+    },
+    {
+      "name": "Gothic Playable Teaser",
+      "process": "gothicpt.exe"
+    },
+    {
+      "name": "Grand Theft Auto IV: The Complete Edition",
+      "process": "gtaiv.exe"
+    },
+    {
+      "name": "Grand Theft Auto V",
+      "process": "gta5.exe",
+      "aliases": [
+        "gtavlauncher.exe"
+      ]
+    },
+    {
+      "name": "Grand Theft Auto V Enhanced",
+      "process": "gta5_enhanced.exe"
+    },
+    {
+      "name": "GRAV",
+      "process": "colonygame.exe"
+    },
+    {
+      "name": "Gravel",
+      "process": "gravel-win64-shipping.exe"
+    },
+    {
+      "name": "Gray Zone Warfare",
+      "process": "gzwclient.exe",
+      "aliases": [
+        "gzwclienteac.exe",
+        "gzwclientsteam.exe",
+        "gzwclient-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Grim Dawn",
+      "process": "grim dawn.exe"
+    },
+    {
+      "name": "GROUND BRANCH",
+      "process": "groundbranch.exe",
+      "aliases": [
+        "groundbranch-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Hacker Evolution",
+      "process": "hackerevolution.exe"
+    },
+    {
+      "name": "Half-Life 2",
+      "process": "hl2.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Half-Life 2 RTX",
+      "process": "hl2rtx.exe"
+    },
+    {
+      "name": "Half-Life: Source",
+      "process": "hl1.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Halo Infinite",
+      "process": "game_release.exe",
+      "aliases": [
+        "haloinfinite.exe"
+      ]
+    },
+    {
+      "name": "Hard Reset",
+      "process": "hardreset.exe"
+    },
+    {
+      "name": "Hard Reset Redux",
+      "process": "hardresetredux.exe"
+    },
+    {
+      "name": "Hellbound",
+      "process": "hellbound.exe"
+    },
+    {
+      "name": "HELLDIVERS 2",
+      "process": "helldivers2.exe"
+    },
+    {
+      "name": "Heroes & Generals",
+      "process": "hng.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Hitman 2: Silent Assassin",
+      "process": "hitman2.exe"
+    },
+    {
+      "name": "Hitman 3",
+      "process": "hitman3.exe"
+    },
+    {
+      "name": "Hitman: Absolution",
+      "process": "hma.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Hitman: Blood Money",
+      "process": "hitmanbloodmoney.exe"
+    },
+    {
+      "name": "Hitman: Codename 47",
+      "process": "hitman.exe"
+    },
+    {
+      "name": "Hogwarts Legacy",
+      "process": "hogwartslegacy.exe"
+    },
+    {
+      "name": "Homefront: The Revolution",
+      "process": "homefront2_release.exe"
+    },
+    {
+      "name": "Honkai: Star Rail",
+      "process": "starrail.exe"
+    },
+    {
+      "name": "Horizon Forbidden West Complete Edition",
+      "process": "horizonforbiddenwest.exe",
+      "aliases": [
+        "nip.wingamesteam.releasesym.dx12.exe",
+        "nip.wingamesteam.releasesymrtdbg.dx12.exe"
+      ]
+    },
+    {
+      "name": "Horizon Zero Dawn Complete Edition",
+      "process": "horizonzerodawn.exe"
+    },
+    {
+      "name": "Horizon Zero Dawn Remastered",
+      "process": "horizonzerodawnremastered.exe",
+      "aliases": [
+        "nip.wingamesteam.releasesym.exe",
+        "nip.wingamesteam.submission.exe",
+        "nip.wingamestream.submission.exe"
+      ]
+    },
+    {
+      "name": "How to Survive",
+      "process": "howtosurvive.exe"
+    },
+    {
+      "name": "Humankind",
+      "process": "humankind.exe"
+    },
+    {
+      "name": "Hyper Light Breaker",
+      "process": "hyperlightbreaker.exe"
+    },
+    {
+      "name": "ICARUS",
+      "process": "icarus.exe",
+      "aliases": [
+        "icarus-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Immortals of Aveum",
+      "process": "immortalsofaveum.exe",
+      "aliases": [
+        "immortalsofaveum-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Incitement 3",
+      "process": "incitement3.exe"
+    },
+    {
+      "name": "Indiana Jones And The Great Circle",
+      "process": "thegreatcircle.exe",
+      "aliases": [
+        "platinum.exe"
+      ]
+    },
+    {
+      "name": "INDUSTRIA",
+      "process": "industria.exe"
+    },
+    {
+      "name": "INDUSTRIA 2",
+      "process": "industria2.exe",
+      "aliases": [
+        "industria2-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Insurgency",
+      "process": "insurgency.exe"
+    },
+    {
+      "name": "Ion Fury",
+      "process": "fury.exe"
+    },
+    {
+      "name": "Jet Set Radio",
+      "process": "jetsetradio.exe"
+    },
+    {
+      "name": "Joe Danger 2: The Movie",
+      "process": "joedanger2.exe"
+    },
+    {
+      "name": "Jurassic World Evolution 2",
+      "process": "jwe2.exe",
+      "aliases": [
+        "galileo.exe",
+        "jwe2.release.exe",
+        "galileo.final.exe"
+      ]
+    },
+    {
+      "name": "Just Cause",
+      "process": "justcause.exe"
+    },
+    {
+      "name": "Just Cause 2",
+      "process": "justcause2.exe"
+    },
+    {
+      "name": "Kane & Lynch 2: Dog Days",
+      "process": "kl2.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Kane & Lynch: Dead Men",
+      "process": "kaneandlynch.exe"
+    },
+    {
+      "name": "Ken Follett's The Pillars of the Earth",
+      "process": "pillarsoftheearth.exe"
+    },
+    {
+      "name": "Kena: Bridge of Spirits",
+      "process": "kena.exe",
+      "aliases": [
+        "kena-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Killing Floor 2",
+      "process": "kfgame.exe"
+    },
+    {
+      "name": "Kingdom Come: Deliverance II",
+      "process": "kingdomcome.exe",
+      "id": "kingdom-come-deliverance-ii",
+      "installPathHints": [
+        "KingdomComeDeliverance2"
+      ]
+    },
+    {
+      "name": "Kingdoms of Amalur: Reckoning",
+      "process": "reckoning.exe"
+    },
+    {
+      "name": "Kings of Kung Fu",
+      "process": "kingsofkungfu.exe"
+    },
+    {
+      "name": "L.A. Noire",
+      "process": "lanoire.exe"
+    },
+    {
+      "name": "Lara Croft and the Temple of Osiris",
+      "process": "lc2.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Layers of Fear",
+      "process": "layersoffear.exe",
+      "aliases": [
+        "layers of fear.exe",
+        "layersoffear-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Left 4 Dead 2",
+      "process": "left4dead2.exe"
+    },
+    {
+      "name": "Legendary",
+      "process": "legendary.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "LEGO Batman: Legacy of the Dark Knight",
+      "process": "legobatmanlotdk.exe",
+      "aliases": [
+        "legobatmanlotdk-win64-test.exe"
+      ]
+    },
+    {
+      "name": "LEGO Star Wars: The Complete Saga",
+      "process": "legostarwarssaga.exe"
+    },
+    {
+      "name": "Lies of P",
+      "process": "lop.exe",
+      "aliases": [
+        "lop-win64-shipping.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Life is Strange 2",
+      "process": "lifeisstrange2.exe"
+    },
+    {
+      "name": "Lightfish",
+      "process": "lightfish.exe"
+    },
+    {
+      "name": "Like a Dragon: Pirate Yakuza in Hawaii",
+      "process": "likeadragonpirates.exe"
+    },
+    {
+      "name": "LIMBO",
+      "process": "limbo.exe"
+    },
+    {
+      "name": "Lost Ark",
+      "process": "lostark.exe"
+    },
+    {
+      "name": "Lost Planet: Extreme Condition",
+      "process": "lostplanet.exe"
+    },
+    {
+      "name": "Mad Max",
+      "process": "madmax.exe"
+    },
+    {
+      "name": "Mafia II (Classic)",
+      "process": "mafia2.exe"
+    },
+    {
+      "name": "Mafia II: Definitive Edition",
+      "process": "mafia ii definitive edition.exe"
+    },
+    {
+      "name": "Mafia: Definitive Edition",
+      "process": "mafiadefinitiveedition.exe"
+    },
+    {
+      "name": "Mafia: The Old Country",
+      "process": "mafiatheoldcountry.exe"
+    },
+    {
+      "name": "Manor Lords",
+      "process": "manorlords.exe",
+      "aliases": [
+        "manorlords-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Marauders",
+      "process": "raidgame-win64-shipping.exe"
+    },
+    {
+      "name": "Mark of the Ninja",
+      "process": "markoftheninja.exe"
+    },
+    {
+      "name": "Marvel Rivals",
+      "process": "marvel.exe",
+      "aliases": [
+        "marvel-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Marvel's Avengers",
+      "process": "av1.exe",
+      "aliases": [
+        "avengers.exe",
+        "av1_x64_gm.exe",
+        "av1_x64_final.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Marvel's Guardians of the Galaxy",
+      "process": "gotg.exe"
+    },
+    {
+      "name": "Marvel's Midnight Suns",
+      "process": "midnightsuns.exe",
+      "aliases": [
+        "midnightsuns-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Marvel's Spider-Man Remastered",
+      "process": "spider-man.exe",
+      "aliases": [
+        "i20_steam_final.exe",
+        "i20_steam_finaldm.exe",
+        "i20_steam_release.exe"
+      ]
+    },
+    {
+      "name": "Marvel's Spider-Man: Miles Morales",
+      "process": "milesmorales.exe",
+      "aliases": [
+        "i31_steam_finaldm.exe",
+        "i31_steam_release.exe"
+      ]
+    },
+    {
+      "name": "Marvels Spider-Man 2",
+      "process": "spider-man2.exe",
+      "aliases": [
+        "i30_steam_finaldm.exe",
+        "i30_steam_release.exe"
+      ]
+    },
+    {
+      "name": "Max Payne 3",
+      "process": "maxpayne3.exe"
+    },
+    {
+      "name": "Mecha Break",
+      "process": "mechabreak.exe"
+    },
+    {
+      "name": "Mechwarrior 5: Clans",
+      "process": "mechwarrior.exe",
+      "aliases": [
+        "mechwarrior-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Medieval Dynasty",
+      "process": "medieval_dynasty.exe"
+    },
+    {
+      "name": "METAL SLUG",
+      "process": "mslug.exe"
+    },
+    {
+      "name": "Metal: Hellsinger",
+      "process": "metal.exe"
+    },
+    {
+      "name": "Metro 2033",
+      "process": "metro2033.exe"
+    },
+    {
+      "name": "Metro Exodus Enhanced Edition",
+      "process": "metroexodus.exe"
+    },
+    {
+      "name": "Metro: Last Light Complete Edition",
+      "process": "metroll.exe"
+    },
+    {
+      "name": "Microsoft Flight Simulator",
+      "process": "flightsimulator.exe"
+    },
+    {
+      "name": "Microsoft Flight Simulator 2024",
+      "process": "flightsimulator2024.exe",
+      "aliases": [
+        "kittyhawkx64_steam_pcr.exe",
+        "sunrisex64_steam_pcr.exe"
+      ]
+    },
+    {
+      "name": "Middle-earth: Shadow of Mordor",
+      "process": "shadowofmordor.exe"
+    },
+    {
+      "name": "Minecraft RTX",
+      "process": "minecraft.windows.exe"
+    },
+    {
+      "name": "Mirror's Edge",
+      "process": "mirrorsedge.exe"
+    },
+    {
+      "name": "MISSING: An Interactive Thriller - Episode One",
+      "process": "missing.exe"
+    },
+    {
+      "name": "MONGIL: STAR DIVE",
+      "process": "mongil.exe",
+      "aliases": [
+        "mongil-win64-shipping.exe",
+        "stardive.exe",
+        "stardive-win64-shipping.exe",
+        "mongilstardive.exe"
+      ]
+    },
+    {
+      "name": "Monster Hunter Rise",
+      "process": "monsterhunterrise.exe"
+    },
+    {
+      "name": "Monster Hunter Wilds",
+      "process": "monsterhunterwilds.exe"
+    },
+    {
+      "name": "Mortal Kombat 1",
+      "process": "mk12.exe",
+      "aliases": [
+        "mk12-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Mortal Kombat 11",
+      "process": "mk11.exe",
+      "aliases": [
+        "mk11_dx12.exe",
+        "mk11game-retail.exe",
+        "mk11game-retaildx12.exe"
+      ]
+    },
+    {
+      "name": "Mortal Kombat Kollection",
+      "process": "mka.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Mortal Kombat Komplete Edition",
+      "process": "mkke.exe"
+    },
+    {
+      "name": "Mortal Kombat X",
+      "process": "mk10.exe"
+    },
+    {
+      "name": "Mortal Online 2",
+      "process": "mortalonline2.exe",
+      "aliases": [
+        "mortalonline2-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Mortal Shell",
+      "process": "mortalshell.exe",
+      "aliases": [
+        "dungeonhaven.exe",
+        "dungeonhaven-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "MotoGP 19",
+      "process": "motogp19-win64-shipping.exe"
+    },
+    {
+      "name": "Mount & Blade II: Bannerlord",
+      "process": "bannerlord.exe",
+      "aliases": [
+        "bannerlord_be.exe",
+        "managedstarter.exe",
+        "bannerlord.native.exe"
+      ]
+    },
+    {
+      "name": "MudRunner",
+      "process": "spintires.exe"
+    },
+    {
+      "name": "MURDERED: SOUL SUSPECT",
+      "process": "murdered.exe"
+    },
+    {
+      "name": "My Time At Sandrock",
+      "process": "sandrock.exe"
+    },
+    {
+      "name": "NARAKA: BLADEPOINT",
+      "process": "narakabladepoint.exe"
+    },
+    {
+      "name": "Need for Speed Unbound",
+      "process": "needforspeedunbound.exe",
+      "aliases": [
+        "nfs22.main_win64_final.exe",
+        "nfs22.main_win64_retail.exe",
+        "nfs22.main_win64_release.exe"
+      ]
+    },
+    {
+      "name": "Need For Speed: Heat",
+      "process": "needforspeedheat.exe"
+    },
+    {
+      "name": "Need for Speed: Hot Pursuit",
+      "process": "nfs11.exe"
+    },
+    {
+      "name": "Nexuiz",
+      "process": "nexuiz.exe"
+    },
+    {
+      "name": "NieR Replicant",
+      "process": "nier replicant ver.1.22474487139.exe"
+    },
+    {
+      "name": "NieR:Automata",
+      "process": "nierautomata.exe"
+    },
+    {
+      "name": "Nightingale",
+      "process": "nwx.exe",
+      "aliases": [
+        "nwxclient.exe",
+        "nwx-win64-shipping.exe",
+        "nwxclient-win64-shipping.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "No Man's Sky",
+      "process": "nms.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "No Rest for the Wicked",
+      "process": "norestforthewicked.exe"
+    },
+    {
+      "name": "NotTheNameWeWanted",
+      "process": "notthenamewewanted.exe"
+    },
+    {
+      "name": "NTE: Neverness to Everness",
+      "process": "nte.exe",
+      "aliases": [
+        "nte-win64-shipping.exe",
+        "ntegame.exe",
+        "nteclient.exe",
+        "neverness.exe",
+        "neverness-win64-shipping.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Once Human",
+      "process": "once_human.exe"
+    },
+    {
+      "name": "Orcs Must Die! Unchained",
+      "process": "orcsmustidie.exe"
+    },
+    {
+      "name": "Outcast 1.1",
+      "process": "outcast.exe"
+    },
+    {
+      "name": "Outriders",
+      "process": "madness.exe",
+      "aliases": [
+        "outriders.exe",
+        "eac_outriders.exe",
+        "madness-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Overload Playable Teaser",
+      "process": "overload.exe"
+    },
+    {
+      "name": "Overwatch 2",
+      "process": "overwatch.exe",
+      "aliases": [
+        "overwatch launcher.exe"
+      ]
+    },
+    {
+      "name": "Pacific Drive",
+      "process": "pendriverpro.exe",
+      "aliases": [
+        "pendriverpro-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Palworld",
+      "process": "palworld.exe",
+      "aliases": [
+        "palworld-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Papers, Please",
+      "process": "papersplease.exe"
+    },
+    {
+      "name": "Party Animals",
+      "process": "partyanimals.exe"
+    },
+    {
+      "name": "Path of Exile 2",
+      "process": "pathofexile.exe",
+      "aliases": [
+        "pathofexile_kg.exe",
+        "pathofexileegs.exe",
+        "pathofexile_x64.exe"
+      ]
+    },
+    {
+      "name": "PAYDAY 3",
+      "process": "payday3.exe",
+      "aliases": [
+        "payday3client.exe",
+        "payday3client-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "PC Building Simulator",
+      "process": "pcbs.exe"
+    },
+    {
+      "name": "Phantasmagoria",
+      "process": "phantasmagoria.exe"
+    },
+    {
+      "name": "Phantasmagoria 2",
+      "process": "phantasmagoria2.exe"
+    },
+    {
+      "name": "Pinball Arcade",
+      "process": "pinballarcade.exe"
+    },
+    {
+      "name": "Pinball FX2",
+      "process": "pinballfx2.exe"
+    },
+    {
+      "name": "PixelJunk Eden",
+      "process": "pixeljunkeden.exe"
+    },
+    {
+      "name": "Plain Sight",
+      "process": "plainsight.exe"
+    },
+    {
+      "name": "Planet Coaster 2",
+      "process": "planetcoaster2.exe"
+    },
+    {
+      "name": "PlanetSide 2",
+      "process": "planetside2_x64.exe"
+    },
+    {
+      "name": "Poker Night 2",
+      "process": "pokernight2.exe"
+    },
+    {
+      "name": "Police Quest Collection",
+      "process": "scidhuv.exe"
+    },
+    {
+      "name": "Portal",
+      "process": "portal.exe"
+    },
+    {
+      "name": "Portal with RTX",
+      "process": "portalrtx.exe"
+    },
+    {
+      "name": "POSTAL 2",
+      "process": "postal2.exe"
+    },
+    {
+      "name": "Postal 3",
+      "process": "p3.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "POSTAL 4: No Regerts",
+      "process": "postal4.exe"
+    },
+    {
+      "name": "PRAGMATA",
+      "process": "pragmata.exe",
+      "aliases": [
+        "pragmata-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Project Borealis: Prologue",
+      "process": "projectborealis.exe"
+    },
+    {
+      "name": "Project CARS",
+      "process": "pcars.exe"
+    },
+    {
+      "name": "Project CARS 2",
+      "process": "pcars2.exe"
+    },
+    {
+      "name": "Psychonauts",
+      "process": "psychonauts.exe"
+    },
+    {
+      "name": "PUBG: BATTLEGROUNDS",
+      "process": "tslgame.exe"
+    },
+    {
+      "name": "Quake (2021)",
+      "process": "quake_x64_steam.exe"
+    },
+    {
+      "name": "Quake Champions",
+      "process": "quakechampions.exe"
+    },
+    {
+      "name": "Quake II",
+      "process": "quake2.exe"
+    },
+    {
+      "name": "Quake II RTX",
+      "process": "q2rtx.exe"
+    },
+    {
+      "name": "Quake III Arena",
+      "process": "quake3.exe"
+    },
+    {
+      "name": "Quake Live",
+      "process": "quakelive_steam.exe"
+    },
+    {
+      "name": "Quake Mission Pack 1: Scourge of Armagon",
+      "process": "quake.exe"
+    },
+    {
+      "name": "R.U.S.E",
+      "process": "ruse.exe"
+    },
+    {
+      "name": "RAGE",
+      "process": "rage64.exe"
+    },
+    {
+      "name": "Ratchet & Clank: Rift Apart",
+      "process": "riftapart.exe",
+      "aliases": [
+        "i29_steam_finaldm.exe",
+        "i29_steam_release.exe"
+      ]
+    },
+    {
+      "name": "RAW - Realms of Ancient War",
+      "process": "raw.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Ready Or Not",
+      "process": "readyornot.exe",
+      "aliases": [
+        "readyornot-win64-shipping.exe",
+        "readyornotsteam-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Real World Racing",
+      "process": "realworldracing.exe"
+    },
+    {
+      "name": "Red Dead Redemption 2",
+      "process": "rdr2.exe",
+      "aliases": [
+        "red2.exe"
+      ]
+    },
+    {
+      "name": "Red Faction Guerrilla Re-Mars-tered",
+      "process": "rfg.exe",
+      "aliases": [
+        "shippingpc-marsgame.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Red Faction: Guerrilla Steam Edition",
+      "process": "rfgsteam.exe"
+    },
+    {
+      "name": "REMATCH",
+      "process": "runtimeclient-win64-shipping.exe",
+      "aliases": [
+        "runtimeclient.exe"
+      ]
+    },
+    {
+      "name": "Remnant 2",
+      "process": "remnant2.exe",
+      "aliases": [
+        "remnant2-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Resident Evil",
+      "process": "bhd.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Resident Evil 2 / Biohazard 2",
+      "process": "re2.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Resident Evil 3 Remake",
+      "process": "re3.exe",
+      "aliases": [
+        "re3_online.exe",
+        "re3_offline.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Resident Evil 4 / Biohazard 4",
+      "process": "re4.exe",
+      "aliases": [
+        "bio4.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Resident Evil 7",
+      "process": "re7.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Resident Evil Re:Verse",
+      "process": "rerev.exe"
+    },
+    {
+      "name": "Resident Evil Requiem",
+      "process": "re9.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "RESIDENT EVIL RESISTANCE",
+      "process": "reresistance.exe"
+    },
+    {
+      "name": "Resident Evil: Village/Biohazard Village",
+      "process": "re8.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Returnal",
+      "process": "returnal.exe",
+      "aliases": [
+        "returnal-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Revenge of the Titans",
+      "process": "revengeofthetitans.exe"
+    },
+    {
+      "name": "Rise of the Tomb Raider",
+      "process": "tr2.exe",
+      "aliases": [
+        "rottr.exe",
+        "rottr_uap.exe",
+        "rottr_orig.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Rise of the Triad",
+      "process": "rott.exe"
+    },
+    {
+      "name": "Risen 2 - Dark Waters",
+      "process": "risen2.exe"
+    },
+    {
+      "name": "Risen 3 - Titan Lords",
+      "process": "risen3.exe"
+    },
+    {
+      "name": "Rising Storm 2: Vietnam",
+      "process": "risingstorm2.exe"
+    },
+    {
+      "name": "RoboCop: Rogue City",
+      "process": "robocop.exe",
+      "aliases": [
+        "robocop-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Rock of Ages",
+      "process": "rockofages.exe"
+    },
+    {
+      "name": "Rocket League",
+      "process": "rocketleague.exe"
+    },
+    {
+      "name": "Rocketbirds: Hardboiled Chicken",
+      "process": "rocketbirds.exe"
+    },
+    {
+      "name": "RUST",
+      "process": "rust.exe",
+      "aliases": [
+        "rustclient.exe"
+      ]
+    },
+    {
+      "name": "Ryse: Son of Rome",
+      "process": "ryse.exe"
+    },
+    {
+      "name": "S.T.A.L.K.E.R. 2: Heart of Chornobyl",
+      "process": "stalker2-win64-shipping.exe",
+      "aliases": [
+        "stalker2.exe"
+      ]
+    },
+    {
+      "name": "Sacrifice",
+      "process": "sacrifice.exe"
+    },
+    {
+      "name": "Saints Row IV",
+      "process": "saintsrowiv.exe"
+    },
+    {
+      "name": "Satisfactory",
+      "process": "factorygame.exe",
+      "aliases": [
+        "factorygameegs.exe",
+        "factorygamesteam.exe",
+        "factorygame-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Scorn",
+      "process": "scorn.exe",
+      "aliases": [
+        "scorn-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "SCUM",
+      "process": "scum.exe"
+    },
+    {
+      "name": "SEGA Bass Fishing",
+      "process": "bassfishing.exe"
+    },
+    {
+      "name": "SEGA Mega Drive & Genesis Classics",
+      "process": "segaclassics.exe"
+    },
+    {
+      "name": "Sekiro: Shadows Die Twice",
+      "process": "sekiro.exe"
+    },
+    {
+      "name": "Senua's Saga: Hellblade II",
+      "process": "hellblade2.exe",
+      "aliases": [
+        "hellblade2-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Serious Sam 3: BFE",
+      "process": "sam3.exe"
+    },
+    {
+      "name": "Serious Sam HD: The First Encounter",
+      "process": "samhd.exe"
+    },
+    {
+      "name": "Serious Sam HD: The Second Encounter",
+      "process": "samhd_tse.exe"
+    },
+    {
+      "name": "Serious Sam: The Random Encounter",
+      "process": "ssamre.exe"
+    },
+    {
+      "name": "Shadow of the Tomb Raider",
+      "process": "tr11.exe",
+      "aliases": [
+        "sottr.exe",
+        "tr11_final.exe",
+        " tr11_final.exe"
+      ]
+    },
+    {
+      "name": "Shadow Warrior",
+      "process": "sw.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Shadow Warrior 2",
+      "process": "sw2.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Shadow Warrior 3",
+      "process": "sw3.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Shadowrun Returns",
+      "process": "shadowrunreturns.exe"
+    },
+    {
+      "name": "Shadowrun: Dragonfall - Director's Cut",
+      "process": "shadowrundragonfall.exe"
+    },
+    {
+      "name": "Shatterline",
+      "process": "shatterline.exe"
+    },
+    {
+      "name": "Shiftlings",
+      "process": "shiftlings.exe"
+    },
+    {
+      "name": "Sid Meier's Civilization V",
+      "process": "civilizationv_dx11.exe"
+    },
+    {
+      "name": "Sifu",
+      "process": "sifu.exe",
+      "aliases": [
+        "sifu-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "SILENT HILL 2",
+      "process": "shproto.exe",
+      "aliases": [
+        "shproto-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "SILENT HILL f",
+      "process": "shf.exe",
+      "aliases": [
+        "shf-win64-shipping.exe",
+        "shf-wingdk-shipping.exe",
+        "konamidigitalentertainmen.silenthillf_168atcksx2mfc"
+      ]
+    },
+    {
+      "name": "SimCity 4 Deluxe",
+      "process": "simcity4.exe"
+    },
+    {
+      "name": "Sins of a Solar Empire: Rebellion",
+      "process": "sins of a solar empire rebellion.exe"
+    },
+    {
+      "name": "Smalland: Survive the Wilds",
+      "process": "smalland.exe",
+      "aliases": [
+        "smalland-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "SMITE 2",
+      "process": "hemingway.exe",
+      "aliases": [
+        "hemingway-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Sniper Elite",
+      "process": "sniperelite.exe"
+    },
+    {
+      "name": "Sniper Elite 3",
+      "process": "sniperelite3.exe"
+    },
+    {
+      "name": "Sniper Elite 4",
+      "process": "sniperelite4.exe"
+    },
+    {
+      "name": "Sniper Elite 5",
+      "process": "sniper5_dx12.exe",
+      "aliases": [
+        "sniperelite5.exe",
+        "sniper5_vulkan.exe",
+        "sniperelite5_dx12.exe"
+      ]
+    },
+    {
+      "name": "Sniper Elite V2",
+      "process": "sniperelitev2.exe"
+    },
+    {
+      "name": "Sniper Elite: Zombie Army 2",
+      "process": "zombiearmy2.exe"
+    },
+    {
+      "name": "SnowRunner",
+      "process": "snowrunner.exe"
+    },
+    {
+      "name": "Solar 2",
+      "process": "solar2.exe"
+    },
+    {
+      "name": "Sonic & All-Stars Racing Transformed Collection",
+      "process": "asr.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Sonic Generations",
+      "process": "sonicgenerations.exe"
+    },
+    {
+      "name": "Soundboxing",
+      "process": "soundboxing.exe"
+    },
+    {
+      "name": "Spec Ops: The Line",
+      "process": "specopstheline.exe"
+    },
+    {
+      "name": "Split Fiction",
+      "process": "splitfiction.exe"
+    },
+    {
+      "name": "SpongeBob SquarePants: Battle for Bikini Bottom - Rehydrated",
+      "process": "pineapple-win64-shipping.exe"
+    },
+    {
+      "name": "Sprint Vector",
+      "process": "sprintvector.exe"
+    },
+    {
+      "name": "Star Trek: Bridge Crew",
+      "process": "startrekbridgecrew.exe"
+    },
+    {
+      "name": "STAR WARS Empire at War: Gold Pack",
+      "process": "sweaw.exe"
+    },
+    {
+      "name": "STAR WARS Galactic Battlegrounds Saga",
+      "process": "battlegrounds.exe"
+    },
+    {
+      "name": "Star Wars Jedi: Fallen Order",
+      "process": "swgame.exe",
+      "aliases": [
+        "swgame-win64-shipping.exe",
+        "starwarsjedifallenorder.exe"
+      ]
+    },
+    {
+      "name": "STAR WARS Jedi: Survivor",
+      "process": "jedisurvivor.exe"
+    },
+    {
+      "name": "STAR WARS Knights of the Old Republic",
+      "process": "swkotor.exe"
+    },
+    {
+      "name": "STAR WARS Knights of the Old Republic II",
+      "process": "swkotor2.exe"
+    },
+    {
+      "name": "Star Wars Outlaws",
+      "process": "outlaws.exe",
+      "aliases": [
+        "helixclient_x64_final.exe",
+        "helixclient_x64_release.exe"
+      ]
+    },
+    {
+      "name": "STAR WARS Rebellion",
+      "process": "rebellion.exe"
+    },
+    {
+      "name": "STAR WARS: TIE Fighter Special Edition",
+      "process": "tie95.exe"
+    },
+    {
+      "name": "STAR WARS: X-Wing Alliance",
+      "process": "xwingalliance.exe"
+    },
+    {
+      "name": "STAR WARS: X-Wing Special Edition",
+      "process": "xwing95.exe"
+    },
+    {
+      "name": "Starfield",
+      "process": "starfield.exe"
+    },
+    {
+      "name": "Steelrising",
+      "process": "steelrising.exe",
+      "aliases": [
+        "steelrisingdo.exe"
+      ]
+    },
+    {
+      "name": "Still Wakes the Deep",
+      "process": "stillwakesthedeep.exe"
+    },
+    {
+      "name": "Stormgate",
+      "process": "stormgate.exe",
+      "aliases": [
+        "stormgate-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Strange Brigade",
+      "process": "strangebrigade.exe"
+    },
+    {
+      "name": "Stray",
+      "process": "stray.exe",
+      "aliases": [
+        "stray-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Subnautica 2",
+      "process": "subnautica2.exe",
+      "aliases": [
+        "subnautica2-win64-test.exe"
+      ]
+    },
+    {
+      "name": "Supreme Commander",
+      "process": "supremecommander.exe"
+    },
+    {
+      "name": "Supreme Commander 2",
+      "process": "supcomm2.exe"
+    },
+    {
+      "name": "Supreme Commander: Forged Alliance",
+      "process": "forgedalliance.exe"
+    },
+    {
+      "name": "Sven Co-op",
+      "process": "svencoop.exe"
+    },
+    {
+      "name": "System Shock",
+      "process": "systemshock.exe",
+      "aliases": [
+        "systemreshock.exe",
+        "systemreshock-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "System Shock 2 (1999)",
+      "process": "shock2.exe"
+    },
+    {
+      "name": "Tales Of Arise",
+      "process": "tales of arise.exe"
+    },
+    {
+      "name": "Teardown",
+      "process": "teardown.exe"
+    },
+    {
+      "name": "Tekken 8",
+      "process": "tekken 8.exe",
+      "aliases": [
+        "polaris-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Terminator: Resistance",
+      "process": "terminator-win64-shipping.exe"
+    },
+    {
+      "name": "Tesla Effect",
+      "process": "teslaeffect.exe"
+    },
+    {
+      "name": "Test Drive Unlimited Solar Crown",
+      "process": "tdusc.exe"
+    },
+    {
+      "name": "Tex Murphy: Martian Memorandum",
+      "process": "texmurphy.exe"
+    },
+    {
+      "name": "The 11th Hour",
+      "process": "the11thhour.exe"
+    },
+    {
+      "name": "The 7th Guest",
+      "process": "the7thguest.exe"
+    },
+    {
+      "name": "The Apogee Throwback Pack",
+      "process": "apogee.exe"
+    },
+    {
+      "name": "The Ascent",
+      "process": "theascent.exe",
+      "aliases": [
+        "theascent-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "The Bureau: XCOM Declassified",
+      "process": "thebureau.exe"
+    },
+    {
+      "name": "The Callisto Protocol",
+      "process": "phoenix.exe",
+      "aliases": [
+        "thecallistoprotocol.exe",
+        "thecallistoprotocol-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "The Dark Eye: Chains of Satinav",
+      "process": "chainsofsatinav.exe"
+    },
+    {
+      "name": "The Darkness II",
+      "process": "darknessii.exe"
+    },
+    {
+      "name": "The Elder Scrolls III: Morrowind",
+      "process": "morrowind.exe"
+    },
+    {
+      "name": "The Elder Scrolls IV: Oblivion Remastered",
+      "process": "oblivionremastered.exe",
+      "aliases": [
+        "oblivionremastered-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "The Elder Scrolls V: Skyrim",
+      "process": "tesv.exe"
+    },
+    {
+      "name": "The Elder Scrolls V: Skyrim Special Edition",
+      "process": "skyrimse.exe"
+    },
+    {
+      "name": "The Expendabros",
+      "process": "expendabros.exe"
+    },
+    {
+      "name": "The Finals",
+      "process": "discovery.exe",
+      "aliases": [
+        "thefinals.exe",
+        "discovery-d.exe",
+        "discovery-e.exe"
+      ]
+    },
+    {
+      "name": "The First Descendant",
+      "process": "m1-win64-shipping.exe",
+      "aliases": [
+        "thefirstdescendant.exe"
+      ]
+    },
+    {
+      "name": "The Gallery - Episode 1: Call of the Starseed",
+      "process": "thegallery.exe"
+    },
+    {
+      "name": "The Incredible Adventures of Van Helsing",
+      "process": "vanhelsing.exe"
+    },
+    {
+      "name": "The Incredible Adventures of Van Helsing II",
+      "process": "vanhelsing_x86.exe"
+    },
+    {
+      "name": "The Lab",
+      "process": "thelab.exe"
+    },
+    {
+      "name": "The Last of Us Part I",
+      "process": "tlou-i.exe",
+      "aliases": [
+        "tlou-i-l.exe"
+      ]
+    },
+    {
+      "name": "The Last of Us™ Part II Remastered",
+      "process": "tlou-ii.exe",
+      "aliases": [
+        "tlou-ii-l.exe",
+        "t2r-steam-rtm.exe",
+        "t2r-steam-final.exe"
+      ]
+    },
+    {
+      "name": "The Medium",
+      "process": "medium-win64-shipping.exe"
+    },
+    {
+      "name": "The Outer Worlds",
+      "process": "theouterworlds.exe",
+      "aliases": [
+        "indiana-win64-shipping.exe",
+        "indianawindowsstore-win64-shipping.exe",
+        "indianaepicgamestore-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "The Riftbreaker",
+      "process": "riftbreaker_win_release.exe"
+    },
+    {
+      "name": "The Sinking City",
+      "process": "tscgame.exe",
+      "aliases": [
+        "tscgame-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "The Stanley Parable",
+      "process": "stanley.exe"
+    },
+    {
+      "name": "The Swapper",
+      "process": "theswapper.exe"
+    },
+    {
+      "name": "The Thaumaturge",
+      "process": "thethaumaturge.exe",
+      "aliases": [
+        "thethaumaturge-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "The Vanishing of Ethan Carter",
+      "process": "ethan.exe"
+    },
+    {
+      "name": "The Vanishing of Ethan Carter Redux",
+      "process": "ethancarterredux.exe"
+    },
+    {
+      "name": "The Walking Dead: Saints & Sinners",
+      "process": "twd-win64-shipping.exe"
+    },
+    {
+      "name": "The Witcher 2: Assassins of Kings",
+      "process": "witcher2.exe"
+    },
+    {
+      "name": "The Witcher 3",
+      "process": "witcher3.exe",
+      "aliases": [
+        "witcher3release.exe"
+      ]
+    },
+    {
+      "name": "Thief (2014)",
+      "process": "thief.exe"
+    },
+    {
+      "name": "THRONE AND LIBERTY",
+      "process": "tl.exe",
+      "aliases": [
+        "tl-win64-shipping.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Tiny Tina's Wonderlands",
+      "process": "wonderlands.exe"
+    },
+    {
+      "name": "Titan Quest Anniversary Edition",
+      "process": "tq.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Titan Quest II",
+      "process": "tq2.exe",
+      "aliases": [
+        "tq2-win64-shipping.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Titan Quest: Immortal Throne",
+      "process": "tqit.exe"
+    },
+    {
+      "name": "Tom Clancy's Ghost Recon Breakpoint",
+      "process": "grb.exe",
+      "aliases": [
+        "grb_upp.exe",
+        "grb_vulkan.exe",
+        "grb_vulkan_upp.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Tom Clancy's H.A.W.X. 2",
+      "process": "hawx2.exe"
+    },
+    {
+      "name": "Tom Clancy's Rainbow Six Extraction",
+      "process": "r6-extraction.exe",
+      "aliases": [
+        "r6-extraction_be.exe"
+      ]
+    },
+    {
+      "name": "Tom Clancy's Splinter Cell: Conviction",
+      "process": "conviction_game.exe"
+    },
+    {
+      "name": "Tom Clancy's The Division 2",
+      "process": "thedivision2.exe",
+      "aliases": [
+        "rogue_x64_retail.exe"
+      ]
+    },
+    {
+      "name": "Tomb Raider (2013)",
+      "process": "tombraider.exe"
+    },
+    {
+      "name": "Torchlight II",
+      "process": "torchlight2.exe"
+    },
+    {
+      "name": "Torchlight: Infinite",
+      "process": "torchlight_infinite.exe"
+    },
+    {
+      "name": "Total War: Warhammer III",
+      "process": "warhammer3.exe"
+    },
+    {
+      "name": "Tower 57",
+      "process": "tower57.exe"
+    },
+    {
+      "name": "Tower of Fantasy",
+      "process": "qrsl.exe"
+    },
+    {
+      "name": "Train Simulator Classic",
+      "process": "railworks.exe"
+    },
+    {
+      "name": "Trine 2",
+      "process": "trine2_32bit.exe"
+    },
+    {
+      "name": "Tropico 4",
+      "process": "tropico4.exe"
+    },
+    {
+      "name": "UNCHARTED: Legacy of Thieves Collection",
+      "process": "u4-l.exe",
+      "aliases": [
+        "tll-l.exe",
+        "tll.exe",
+        "u4.exe"
+      ]
+    },
+    {
+      "name": "UNDECEMBER",
+      "process": "undecember.exe",
+      "aliases": [
+        "undecember-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Universe Sandbox Legacy",
+      "process": "universesandbox.exe"
+    },
+    {
+      "name": "Urban Trial Freestyle",
+      "process": "urbantrialfreestyle.exe"
+    },
+    {
+      "name": "V Rising",
+      "process": "vrising.exe"
+    },
+    {
+      "name": "Valorant",
+      "process": "valorant.exe",
+      "aliases": [
+        "valorant-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Vampire: The Masquerade - Bloodlines",
+      "process": "vampire.exe"
+    },
+    {
+      "name": "Vampyr",
+      "process": "avgame-win64-shipping.exe"
+    },
+    {
+      "name": "Velvet Assassin",
+      "process": "velvetassassin.exe"
+    },
+    {
+      "name": "Victor Vran",
+      "process": "victorvran.exe"
+    },
+    {
+      "name": "Viscera Cleanup Detail: Shadow Warrior",
+      "process": "vcd.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "War Thunder",
+      "process": "aces.exe",
+      "aliases": [
+        "aces64.exe"
+      ]
+    },
+    {
+      "name": "Warframe",
+      "process": "warframe.x64.exe"
+    },
+    {
+      "name": "Warhammer 40,000: Space Marine 2",
+      "process": "spacemarine2.exe"
+    },
+    {
+      "name": "Warhammer 40000: Darktide",
+      "process": "darktide.exe",
+      "aliases": [
+        "stingray_win64_release_x64.exe"
+      ]
+    },
+    {
+      "name": "Warhammer 40000: SPACE MARINE 2",
+      "process": "warhammer 40000 space marine 2.exe",
+      "aliases": [
+        "warhammer 40,000 space marine 2 - retail.exe"
+      ]
+    },
+    {
+      "name": "Warhammer: End Times - Vermintide",
+      "process": "vermintide.exe"
+    },
+    {
+      "name": "Warhammer: Vermintide 2",
+      "process": "vermintide2.exe",
+      "aliases": [
+        "vermintide2_dx12.exe"
+      ]
+    },
+    {
+      "name": "Watch Dogs: Legion",
+      "process": "watchdogslegion.exe",
+      "aliases": [
+        "watchdogslegion_be.exe",
+        "watchdogs_clang_r64_dx11.exe",
+        "watchdogs_clang_r64_dx12.exe"
+      ]
+    },
+    {
+      "name": "Windrose",
+      "process": "windrose-win64-shipping.exe",
+      "aliases": [
+        "windrose.exe",
+        "crosswind-win64-shipping.exe",
+        "crosswind.exe"
+      ]
+    },
+    {
+      "name": "WitchFire",
+      "process": "witchfire.exe",
+      "aliases": [
+        "witchfire-win64-shipping.exe"
+      ]
+    },
+    {
+      "name": "Wo Long: Fallen Dynasty",
+      "process": "wolong.exe"
+    },
+    {
+      "name": "Wolfenstein: The Old Blood",
+      "process": "wolfoldblood_x64.exe"
+    },
+    {
+      "name": "Wolfenstein: Youngblood",
+      "process": "youngblood_x64vk.exe",
+      "aliases": [
+        "youngblood_x64vk__2019_07_31__12_17_28.exe"
+      ]
+    },
+    {
+      "name": "World of Tanks: HEAT",
+      "process": "engine_launcher.exe",
+      "aliases": []
+    },
+    {
+      "name": "World War Z",
+      "process": "wwzretail.exe",
+      "aliases": [
+        "wwzrelease.exe",
+        "wwzretailegs.exe",
+        "wwzretailegs__2019_04_19__11_38_56.exe"
+      ]
+    },
+    {
+      "name": "Worms",
+      "process": "worms.exe"
+    },
+    {
+      "name": "WRATH: Aeon of Ruin",
+      "process": "wrath.exe"
+    },
+    {
+      "name": "WRC Powerslide",
+      "process": "wrcpowerslide.exe"
+    },
+    {
+      "name": "Wreckfest",
+      "process": "wreckfest_x64.exe"
+    },
+    {
+      "name": "Wreckfest 2",
+      "process": "wreckfest2.exe"
+    },
+    {
+      "name": "Wuthering Waves",
+      "process": "wuthering waves.exe",
+      "aliases": [
+        "client-win64-shipping.exe"
+      ],
+      "ambiguous": true
+    },
+    {
+      "name": "Yet Another Zombie Defense",
+      "process": "yazd.exe"
+    },
+    {
+      "name": "You Suck at Parking - Complete Edition",
+      "process": "yousuckatparking.exe"
+    },
+    {
+      "name": "Zenless Zone Zero",
+      "process": "zenlesszonezero.exe"
+    },
+    {
+      "name": "Zeno Clash",
+      "process": "zenoclash.exe"
+    },
+    {
+      "name": "Zombie Army 4: Dead War",
+      "process": "zombiearmy4.exe"
+    },
+    {
+      "name": "Zombie Army Trilogy",
+      "process": "zat.exe",
+      "ambiguous": true
+    },
+    {
+      "name": "Zombie Driver",
+      "process": "zombiedriver.exe"
+    },
+    {
+      "name": "GZDoom",
+      "process": "gzdoom.exe"
+    },
+    {
+      "name": "Fatekeeper",
+      "process": "slasher.exe"
+    },
+    {
+      "name": "Gothic 1 Remake",
+      "process": "g1r-win64-shipping.exe"
+    },
+    {
+      "name": "1666 Amsterdam",
+      "process": "1666amsterdam.exe"
+    },
+    {
+      "name": "Halo: Campaign Evolved",
+      "process": "halocampaignevolved.exe",
+      "aliases": [
+        "halocampaignevolved-win64-test.exe",
+        "halocampaignevolved-wingdk-test.exe"
+      ]
+    },
+    {
+      "name": "Gears of War: E-Day",
+      "process": "goweday.exe",
+      "aliases": [
+        "goweday-steam.exe",
+        "fairlightconcept.exe",
+        "fairlightconceptsteam.exe",
+        "fairlightconceptsteam-win64-shipping.exe",
+        "fairlightconceptsteam-win64-shipping_protected.exe",
+        "fairlightconcept-wingdk-shipping.exe",
+        "fairlightconcept-wingdk-shipping_protected.exe",
+        "fairlightconceptsteam-win64-test.exe",
+        "fairlightconcept-wingdk-test.exe"
+      ]
+    },
+    {
+      "name": "Mistfall Hunter",
+      "process": "mistfallhunter.exe",
+      "aliases": [
+        "mistfallhunter-win64-shipping.exe",
+        "mistfallhunter-wingdk-shipping.exe"
+      ]
+    },
+    {
+      "name": "Freelancer (HD)",
+      "process": "lancer.exe"
+    },
+    {
+      "name": "The Witcher (2007)",
+      "process": "witcher.exe"
+    }
+  ]
+}
